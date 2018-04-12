@@ -666,11 +666,7 @@ PlayerSettings:
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
     Build: 0
-<<<<<<< HEAD
     Collab: 0
-=======
-    Collab: 1
->>>>>>> parent of 189a645... collab: 0
     ErrorHub: 0
     Hub: 0
     UNet: 1

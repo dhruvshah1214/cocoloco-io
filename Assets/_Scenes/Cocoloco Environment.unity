@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465785, g: 0.49641252, b: 0.574817, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -118,7 +118,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh21638
+  m_Name: pb_Mesh268382
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -1046,7 +1046,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: d72e0e152bd16f249895be707bde8653, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 176
+  surfaceTypeHelp: 128
 --- !u!1 &161333920
 GameObject:
   m_ObjectHideFlags: 0
@@ -3461,7 +3461,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh21620
+  m_Name: pb_Mesh268364
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -3591,7 +3591,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh21602
+  m_Name: pb_Mesh268346
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -6384,7 +6384,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: d72e0e152bd16f249895be707bde8653, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 176
+  surfaceTypeHelp: 128
 --- !u!1 &454979950
 GameObject:
   m_ObjectHideFlags: 0
@@ -8923,7 +8923,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: d72e0e152bd16f249895be707bde8653, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 176
+  surfaceTypeHelp: 128
 --- !u!43 &462312477
 Mesh:
   m_ObjectHideFlags: 0
@@ -11592,13 +11592,13 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: d72e0e152bd16f249895be707bde8653, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 176
+  surfaceTypeHelp: 128
 --- !u!43 &582105509
 Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh21838
+  m_Name: pb_Mesh268592
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -14261,13 +14261,13 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: d72e0e152bd16f249895be707bde8653, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 176
+  surfaceTypeHelp: 128
 --- !u!43 &664425048
 Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh21778
+  m_Name: pb_Mesh268524
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -16306,7 +16306,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh21542
+  m_Name: pb_Mesh268272
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -18333,7 +18333,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh21758
+  m_Name: pb_Mesh-852942
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -18458,328 +18458,6 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
---- !u!1 &1298673594
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100002, guid: 18f0fd852629f2a4ca1c61b0967fa0b8, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1298673595}
-  - component: {fileID: 1298673599}
-  - component: {fileID: 1298673598}
-  - component: {fileID: 1298673597}
-  - component: {fileID: 1298673596}
-  m_Layer: 0
-  m_Name: 2Machinegun
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1298673595
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400002, guid: 18f0fd852629f2a4ca1c61b0967fa0b8, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1298673594}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1415587419}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1298673596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400016, guid: 18f0fd852629f2a4ca1c61b0967fa0b8,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1298673594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28dff080eb100b14190cc15bff12b397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SoundReload: {fileID: 0}
-  ReloadDuration: 1
-  AnimationReload: {fileID: 0}
---- !u!114 &1298673597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400010, guid: 18f0fd852629f2a4ca1c61b0967fa0b8,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1298673594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3320cb8b89dc2547959c4c6e6621e03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Persist: 0
-  States:
-  - TypeName: vp_FPWeaponShooter
-    Name: Zoom
-    TextAsset: {fileID: 4900000, guid: 52e350400ef1a9246ae1c050612ff3b5, type: 3}
-    StatesToBlock: 
-  - TypeName: vp_FPWeaponShooter
-    Name: SlideFast
-    TextAsset: {fileID: 4900000, guid: f8bec25e136de0c43988b7a7b08f883d, type: 3}
-    StatesToBlock: 
-  - TypeName: vp_FPWeaponShooter
-    Name: Default
-    TextAsset: {fileID: 0}
-    StatesToBlock: 
-  Children: []
-  Siblings:
-  - {fileID: 1298673598}
-  Family:
-  - {fileID: 1415587423}
-  - {fileID: 1415587422}
-  - {fileID: 1415587424}
-  - {fileID: 1298673598}
-  Renderers: []
-  AudioSources:
-  - {fileID: 1298673599}
-  m_ProjectileSpawnPoint: {fileID: 1298673594}
-  ProjectilePrefab: {fileID: 100000, guid: 8e0eede1a84a3d44a859ca0304834df5, type: 2}
-  ProjectileScale: 0.4
-  ProjectileFiringRate: 0
-  ProjectileSpawnDelay: 0
-  ProjectileCount: 1
-  ProjectileSpread: 1
-  ProjectileSourceIsRoot: 1
-  FireMessage: 
-  MuzzleFlashPosition: {x: 0, y: 0, z: 0}
-  MuzzleFlashScale: {x: 0.2, y: 0.2, z: 0.2}
-  MuzzleFlashFadeSpeed: 0.075
-  MuzzleFlashPrefab: {fileID: 100000, guid: f8c6c34daab563340b2a75bc4a7ecbd2, type: 2}
-  MuzzleFlashDelay: 0
-  m_MuzzleFlashSpawnPoint: {fileID: 0}
-  ShellPrefab: {fileID: 100000, guid: b6c4610c790d2de47994172315899429, type: 2}
-  ShellScale: 0.05
-  ShellEjectDirection: {x: 2, y: 1, z: 1}
-  ShellEjectPosition: {x: 0.2, y: -0.05, z: 0.5}
-  ShellEjectVelocity: 0.2
-  ShellEjectDelay: 0
-  ShellEjectSpin: 1
-  m_ShellEjectSpawnPoint: {fileID: 0}
-  SoundFire: {fileID: 8300000, guid: 5afc1e4e7999b844abd6b398674426bf, type: 3}
-  SoundFireDelay: 0
-  SoundFirePitch: {x: 1, y: 1}
-  FirePosition: {x: 111.061104, y: 105.54269, z: -89.6473}
-  ProjectileTapFiringRate: 0
-  MotionPositionRecoil: {x: 0, y: 0, z: -0.035}
-  MotionRotationRecoil: {x: -1, y: 0, z: 0}
-  MotionRotationRecoilDeadZone: 0.5
-  MotionDryFireRecoil: -0.1
-  MotionRecoilDelay: 0
-  MuzzleFlashFirstShotMaxDeviation: 180
-  SoundDryFire: {fileID: 8300000, guid: 5afc1e4e7999b844abd6b398674426bf, type: 3}
-  MotionPositionReset: 0.5
-  MotionRotationReset: 0.5
-  MotionPositionPause: 0
-  MotionRotationPause: 1
-  MotionRotationRecoilCameraFactor: 0
-  MotionPositionRecoilCameraFactor: 0
-  AnimationFire: {fileID: 0}
-  AnimationOutOfAmmo: {fileID: 0}
---- !u!114 &1298673598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 18f0fd852629f2a4ca1c61b0967fa0b8,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1298673594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8227215081904e84a97ab858e04ca55d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Persist: 0
-  States:
-  - TypeName: vp_FPWeapon
-    Name: Reload
-    TextAsset: {fileID: 4900000, guid: d4d1bcf64d264734cafa38f9cdfd3550, type: 3}
-    StatesToBlock: 03000000
-  - TypeName: vp_FPWeapon
-    Name: Reload2
-    TextAsset: {fileID: 4900000, guid: d4d1bcf64d264734cafa38f9cdfd3550, type: 3}
-    StatesToBlock: 
-  - TypeName: vp_FPWeapon
-    Name: Zoom
-    TextAsset: {fileID: 4900000, guid: 015c09b9cc428284782b36c4a6879a6f, type: 3}
-    StatesToBlock: 
-  - TypeName: vp_FPWeapon
-    Name: Attack
-    TextAsset: {fileID: 4900000, guid: 28b9cce4d7d6c7c429f28f6f4cf3e227, type: 3}
-    StatesToBlock: 
-  - TypeName: vp_FPWeapon
-    Name: Default
-    TextAsset: {fileID: 0}
-    StatesToBlock: 
-  Children: []
-  Siblings: []
-  Family: []
-  Renderers: []
-  AudioSources: []
-  Weapon3rdPersonModel: {fileID: 0}
-  Weapon3rdPersonInvisibleMaterial: {fileID: 0}
-  PositionOffset: {x: 0.1493672, y: -0.2665937, z: 0.1704005}
-  PositionSpring2Stiffness: 0.2
-  PositionSpring2Damping: 0.5615942
-  RotationOffset: {x: -3.158258, y: -5, z: 0}
-  RotationSpring2Stiffness: 0.85
-  RotationSpring2Damping: 0.6
-  AnimationType: 1
-  AnimationGrip: 1
-  WeaponPrefab: {fileID: 100006, guid: 8e05d8cb81303df4ebf68764d18ed006, type: 2}
-  RenderingZoomDamping: 0.5
-  RenderingFieldOfView: 45
-  RenderingClippingPlanes: {x: 0.01, y: 10}
-  RenderingZScale: 1
-  PositionSpringStiffness: 0.01
-  PositionSpringDamping: 0.25
-  PositionFallRetract: 1
-  PositionPivotSpringStiffness: 0.1
-  PositionPivotSpringDamping: 0.5
-  PositionKneeling: 0.06
-  PositionKneelingSoftness: 1
-  PositionWalkSlide: {x: 1, y: 1, z: 1}
-  PositionPivot: {x: 0, y: 0, z: -0.2741375}
-  RotationPivot: {x: 0, y: 0, z: 0}
-  PositionInputVelocityScale: 3
-  PositionMaxInputVelocity: 20
-  RotationSpringStiffness: 0.01
-  RotationSpringDamping: 0.25
-  RotationPivotSpringStiffness: 0.01
-  RotationPivotSpringDamping: 0.25
-  RotationKneeling: 0
-  RotationKneelingSoftness: 1
-  RotationLookSway: {x: 1, y: 1, z: 0}
-  RotationStrafeSway: {x: 1, y: 1, z: -1}
-  RotationFallSway: {x: 2, y: 0, z: 0}
-  RotationSlopeSway: 0.75
-  RotationInputVelocityScale: 1
-  RotationMaxInputVelocity: 5
-  RetractionDistance: 0.4
-  RetractionOffset: {x: 0, y: 0}
-  RetractionRelaxSpeed: 0.25
-  ShakeSpeed: 0.1
-  ShakeAmplitude: {x: 0.25, y: 0, z: 1}
-  BobRate: {x: 1.4, y: 0.7, z: 0.7, w: 0.7}
-  BobAmplitude: {x: 0.5, y: 0.4, z: 0.2, w: 0.005}
-  BobInputVelocityScale: 3.5
-  BobMaxInputVelocity: 250
-  BobRequireGroundContact: 1
-  StepPositionForce: {x: 0, y: 0.015, z: 0}
-  StepRotationForce: {x: 1.5, y: 0, z: 0}
-  StepSoftness: 5
-  StepMinVelocity: 2
-  StepPositionBalance: 0
-  StepRotationBalance: 0
-  StepForceScale: 0.05
-  LookDownActive: 0
-  LookDownYawLimit: 60
-  LookDownPositionOffsetMiddle: {x: 0.32, y: -0.37, z: 0.78}
-  LookDownPositionOffsetLeft: {x: 0.27, y: -0.31, z: 0.7}
-  LookDownPositionOffsetRight: {x: 0.6, y: -0.41, z: 0.86}
-  LookDownPositionSpringPower: 1
-  LookDownRotationOffsetMiddle: {x: -3.9, y: 2.24, z: 4.69}
-  LookDownRotationOffsetLeft: {x: -7, y: -10.5, z: 15.6}
-  LookDownRotationOffsetRight: {x: -9.2, y: -9.8, z: 48.84}
-  LookDownRotationSpringPower: 1
-  SoundWield: {fileID: 8300000, guid: 473a74db115d813438612532f0f79436, type: 3}
-  SoundUnWield: {fileID: 8300000, guid: 1121f8e8542b4ad4db2becdfb8edf6a8, type: 3}
-  AnimationWield: {fileID: 0}
-  AnimationUnWield: {fileID: 0}
-  AnimationAmbient: []
-  AmbientInterval: {x: 2.5, y: 7.5}
-  PositionExitOffset: {x: 0, y: -1, z: 0}
-  RotationExitOffset: {x: 40, y: 0, z: 0}
-  DoSpringsInLateUpdate: 0
---- !u!82 &1298673599
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 8200002, guid: 18f0fd852629f2a4ca1c61b0967fa0b8,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1298673594}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
 --- !u!43 &1354452899
 Mesh:
   m_ObjectHideFlags: 0
@@ -21448,13 +21126,13 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: d72e0e152bd16f249895be707bde8653, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 176
+  surfaceTypeHelp: 128
 --- !u!43 &1387383844
 Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh21972
+  m_Name: pb_Mesh268732
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -24167,7 +23845,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 18f0fd852629f2a4ca1c61b0967fa0b8, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400004, guid: 18f0fd852629f2a4ca1c61b0967fa0b8, type: 2}
       propertyPath: RenderingFieldOfView
@@ -24220,30 +23898,12 @@ MonoBehaviour:
   SetWeaponAttackSleepDuration: 0.3
   ReloadAttackSleepDuration: 0.3
   ReloadAutomatically: 1
---- !u!114 &1415587422 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11400014, guid: 18f0fd852629f2a4ca1c61b0967fa0b8,
-    type: 2}
-  m_PrefabInternal: {fileID: 1415587418}
-  m_Script: {fileID: 11500000, guid: d26624e206ef7f1478fd1f7f5cdbaa4b, type: 3}
---- !u!114 &1415587423 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11400012, guid: 18f0fd852629f2a4ca1c61b0967fa0b8,
-    type: 2}
-  m_PrefabInternal: {fileID: 1415587418}
-  m_Script: {fileID: 11500000, guid: 6bf848271384e984c89313a56d3bb5cb, type: 3}
---- !u!114 &1415587424 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11400020, guid: 18f0fd852629f2a4ca1c61b0967fa0b8,
-    type: 2}
-  m_PrefabInternal: {fileID: 1415587418}
-  m_Script: {fileID: 11500000, guid: a855eb337c41c604bb7238f65577f09d, type: 3}
 --- !u!43 &1428030850
 Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh21940
+  m_Name: pb_Mesh268700
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -27308,7 +26968,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: d72e0e152bd16f249895be707bde8653, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 176
+  surfaceTypeHelp: 128
 --- !u!43 &1689125655
 Mesh:
   m_ObjectHideFlags: 0
@@ -27444,7 +27104,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh21858
+  m_Name: pb_Mesh268612
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -28354,7 +28014,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh21894
+  m_Name: pb_Mesh268656
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -28609,6 +28269,290 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
+--- !u!1 &1845098762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 18f0fd852629f2a4ca1c61b0967fa0b8, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1845098763}
+  - component: {fileID: 1845098767}
+  - component: {fileID: 1845098766}
+  - component: {fileID: 1845098765}
+  - component: {fileID: 1845098764}
+  m_Layer: 0
+  m_Name: 2Machinegun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1845098763
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 18f0fd852629f2a4ca1c61b0967fa0b8, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1845098762}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1415587419}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1845098764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400016, guid: 18f0fd852629f2a4ca1c61b0967fa0b8,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1845098762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dff080eb100b14190cc15bff12b397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SoundReload: {fileID: 0}
+  ReloadDuration: 1
+  AnimationReload: {fileID: 0}
+--- !u!114 &1845098765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400010, guid: 18f0fd852629f2a4ca1c61b0967fa0b8,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1845098762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3320cb8b89dc2547959c4c6e6621e03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Persist: 0
+  States: []
+  Children: []
+  Siblings: []
+  Family: []
+  Renderers: []
+  AudioSources: []
+  m_ProjectileSpawnPoint: {fileID: 0}
+  ProjectilePrefab: {fileID: 0}
+  ProjectileScale: 1
+  ProjectileFiringRate: 0.3
+  ProjectileSpawnDelay: 0
+  ProjectileCount: 1
+  ProjectileSpread: 0
+  ProjectileSourceIsRoot: 1
+  FireMessage: 
+  MuzzleFlashPosition: {x: 0, y: 0, z: 0}
+  MuzzleFlashScale: {x: 1, y: 1, z: 1}
+  MuzzleFlashFadeSpeed: 0.075
+  MuzzleFlashPrefab: {fileID: 0}
+  MuzzleFlashDelay: 0
+  m_MuzzleFlashSpawnPoint: {fileID: 0}
+  ShellPrefab: {fileID: 0}
+  ShellScale: 1
+  ShellEjectDirection: {x: 1, y: 1, z: 1}
+  ShellEjectPosition: {x: 1, y: 0, z: 1}
+  ShellEjectVelocity: 0.2
+  ShellEjectDelay: 0
+  ShellEjectSpin: 0
+  m_ShellEjectSpawnPoint: {fileID: 0}
+  SoundFire: {fileID: 0}
+  SoundFireDelay: 0
+  SoundFirePitch: {x: 1, y: 1}
+  FirePosition: {x: 0, y: 0, z: 0}
+  ProjectileTapFiringRate: 0.1
+  MotionPositionRecoil: {x: 0, y: 0, z: -0.035}
+  MotionRotationRecoil: {x: -10, y: 0, z: 0}
+  MotionRotationRecoilDeadZone: 0.5
+  MotionDryFireRecoil: -0.1
+  MotionRecoilDelay: 0
+  MuzzleFlashFirstShotMaxDeviation: 180
+  SoundDryFire: {fileID: 0}
+  MotionPositionReset: 0.5
+  MotionRotationReset: 0.5
+  MotionPositionPause: 1
+  MotionRotationPause: 1
+  MotionRotationRecoilCameraFactor: 0
+  MotionPositionRecoilCameraFactor: 0
+  AnimationFire: {fileID: 0}
+  AnimationOutOfAmmo: {fileID: 0}
+--- !u!114 &1845098766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: 18f0fd852629f2a4ca1c61b0967fa0b8,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1845098762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8227215081904e84a97ab858e04ca55d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Persist: 0
+  States: []
+  Children: []
+  Siblings: []
+  Family: []
+  Renderers: []
+  AudioSources: []
+  Weapon3rdPersonModel: {fileID: 0}
+  Weapon3rdPersonInvisibleMaterial: {fileID: 0}
+  PositionOffset: {x: 0.15, y: -0.15, z: -0.15}
+  PositionSpring2Stiffness: 0.95
+  PositionSpring2Damping: 0.25
+  RotationOffset: {x: 0, y: 0, z: 0}
+  RotationSpring2Stiffness: 0.95
+  RotationSpring2Damping: 0.25
+  AnimationType: 1
+  AnimationGrip: 1
+  WeaponPrefab: {fileID: 0}
+  RenderingZoomDamping: 0.5
+  RenderingFieldOfView: 35
+  RenderingClippingPlanes: {x: 0.01, y: 10}
+  RenderingZScale: 1
+  PositionSpringStiffness: 0.01
+  PositionSpringDamping: 0.25
+  PositionFallRetract: 1
+  PositionPivotSpringStiffness: 0.01
+  PositionPivotSpringDamping: 0.25
+  PositionKneeling: 0.06
+  PositionKneelingSoftness: 1
+  PositionWalkSlide: {x: 0.5, y: 0.75, z: 0.5}
+  PositionPivot: {x: 0, y: 0, z: 0}
+  RotationPivot: {x: 0, y: 0, z: 0}
+  PositionInputVelocityScale: 1
+  PositionMaxInputVelocity: 25
+  RotationSpringStiffness: 0.01
+  RotationSpringDamping: 0.25
+  RotationPivotSpringStiffness: 0.01
+  RotationPivotSpringDamping: 0.25
+  RotationKneeling: 0
+  RotationKneelingSoftness: 1
+  RotationLookSway: {x: 1, y: 0.7, z: 0}
+  RotationStrafeSway: {x: 0.3, y: 1, z: 1.5}
+  RotationFallSway: {x: 1, y: -0.5, z: -3}
+  RotationSlopeSway: 0.5
+  RotationInputVelocityScale: 1
+  RotationMaxInputVelocity: 15
+  RetractionDistance: 0
+  RetractionOffset: {x: 0, y: 0}
+  RetractionRelaxSpeed: 0.25
+  ShakeSpeed: 0.05
+  ShakeAmplitude: {x: 0.25, y: 0, z: 2}
+  BobRate: {x: 0.9, y: 0.45, z: 0, w: 0}
+  BobAmplitude: {x: 0.35, y: 0.5, z: 0, w: 0}
+  BobInputVelocityScale: 1
+  BobMaxInputVelocity: 100
+  BobRequireGroundContact: 1
+  StepPositionForce: {x: 0, y: -0.0012, z: -0.0012}
+  StepRotationForce: {x: 0, y: 0, z: 0}
+  StepSoftness: 4
+  StepMinVelocity: 0
+  StepPositionBalance: 0
+  StepRotationBalance: 0
+  StepForceScale: 1
+  LookDownActive: 0
+  LookDownYawLimit: 60
+  LookDownPositionOffsetMiddle: {x: 0.32, y: -0.37, z: 0.78}
+  LookDownPositionOffsetLeft: {x: 0.27, y: -0.31, z: 0.7}
+  LookDownPositionOffsetRight: {x: 0.6, y: -0.41, z: 0.86}
+  LookDownPositionSpringPower: 1
+  LookDownRotationOffsetMiddle: {x: -3.9, y: 2.24, z: 4.69}
+  LookDownRotationOffsetLeft: {x: -7, y: -10.5, z: 15.6}
+  LookDownRotationOffsetRight: {x: -9.2, y: -9.8, z: 48.84}
+  LookDownRotationSpringPower: 1
+  SoundWield: {fileID: 0}
+  SoundUnWield: {fileID: 0}
+  AnimationWield: {fileID: 0}
+  AnimationUnWield: {fileID: 0}
+  AnimationAmbient: []
+  AmbientInterval: {x: 2.5, y: 7.5}
+  PositionExitOffset: {x: 0, y: -1, z: 0}
+  RotationExitOffset: {x: 40, y: 0, z: 0}
+  DoSpringsInLateUpdate: 0
+--- !u!82 &1845098767
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200002, guid: 18f0fd852629f2a4ca1c61b0967fa0b8,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1845098762}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!43 &1903288749
 Mesh:
   m_ObjectHideFlags: 0
@@ -29140,7 +29084,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: d72e0e152bd16f249895be707bde8653, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 176
+  surfaceTypeHelp: 128
 --- !u!1 &1912229177
 GameObject:
   m_ObjectHideFlags: 0
@@ -31815,7 +31759,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh21586
+  m_Name: pb_Mesh268330
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -32260,7 +32204,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: d72e0e152bd16f249895be707bde8653, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 176
+  surfaceTypeHelp: 128
 --- !u!1 &2035985150
 GameObject:
   m_ObjectHideFlags: 0
@@ -34824,7 +34768,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2112869320}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24, y: 10, z: 24}
+  m_LocalPosition: {x: 24, y: 8, z: 24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -34844,7 +34788,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: d72e0e152bd16f249895be707bde8653, type: 2}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 176
+  surfaceTypeHelp: 128
 --- !u!64 &2112869327
 MeshCollider:
   m_ObjectHideFlags: 0

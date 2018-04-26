@@ -16,4 +16,4 @@ MonoBehaviour:
   Icon: {fileID: 0}
   LocalPrefab: {fileID: 114176, guid: 75d194da8d520d044a7995727e6b485a, type: 2}
   RemotePrefab: {fileID: 186132, guid: 1a0582bb93fd21647bdc27b99c6bba83, type: 2}
-  mpPlayerTypeHelp: 84
+  mpPlayerTypeHelp: 73

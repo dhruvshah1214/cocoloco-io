@@ -85,7 +85,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -109,7 +109,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -128,6 +128,7 @@ MonoBehaviour:
   SpawnObjects:
   - {fileID: 100000, guid: 44ab87406b111de4183f7453cd909d02, type: 2}
   - {fileID: 100000, guid: cb4a881e34fd24147b789925a963acd3, type: 2}
+  - {fileID: 100000, guid: 8b963fe6d1b74c94da542772c42bd64e, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

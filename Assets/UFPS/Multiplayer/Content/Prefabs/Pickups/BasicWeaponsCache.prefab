@@ -858,7 +858,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -882,7 +882,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!82 &8200002
 AudioSource:
   m_ObjectHideFlags: 1
@@ -1098,7 +1098,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -1122,7 +1122,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!82 &8200010
 AudioSource:
   m_ObjectHideFlags: 1
@@ -1338,7 +1338,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -1362,7 +1362,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!82 &8200020
 AudioSource:
   m_ObjectHideFlags: 1
@@ -1544,7 +1544,7 @@ MonoBehaviour:
   SpawnOnAwake: 0
   SpawnSound: {fileID: 8300000, guid: c6ffb5ccbd00a114494143e33e747a05, type: 3}
   SpawnFXPrefabs: []
-  helpbox: 221
+  helpbox: 111
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1561,7 +1561,7 @@ MonoBehaviour:
   m_Item:
     Type: {fileID: 11400000, guid: 324ca7eed539b8144ba9097e62aefd8a, type: 2}
     GiveOnContact: 1
-    helpbox: 144
+    helpbox: 133
   m_Recipient:
     Tags: []
     helpbox: 0
@@ -1575,7 +1575,7 @@ MonoBehaviour:
     SuccessMultiple: Picked up {4} {1}s.
     FailSingle: Can't carry any more {1}s.
     FailMultiple: Can't carry any more {1}s.
-    helpbox: 166
+    helpbox: 155
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1729,7 +1729,7 @@ MonoBehaviour:
   m_Item:
     Type: {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
     GiveOnContact: 1
-    helpbox: 177
+    helpbox: 133
   m_Recipient:
     Tags: []
     helpbox: 78
@@ -1765,7 +1765,7 @@ MonoBehaviour:
   SpawnOnAwake: 0
   SpawnSound: {fileID: 0}
   SpawnFXPrefabs: []
-  helpbox: 221
+  helpbox: 111
 --- !u!114 &11400022
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1782,10 +1782,10 @@ MonoBehaviour:
   m_Item:
     Type: {fileID: 11400000, guid: 3a65c1045a843bc4ba9680febc091edf, type: 2}
     GiveOnContact: 1
-    helpbox: 177
+    helpbox: 133
   m_Recipient:
     Tags: []
-    helpbox: 78
+    helpbox: 67
   m_Sound:
     PickupSound: {fileID: 0}
     PickupSoundSlomo: 0
@@ -1990,7 +1990,7 @@ MonoBehaviour:
   SpawnOnAwake: 0
   SpawnSound: {fileID: 8300000, guid: c6ffb5ccbd00a114494143e33e747a05, type: 3}
   SpawnFXPrefabs: []
-  helpbox: 221
+  helpbox: 111
 --- !u!114 &11400054
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2007,7 +2007,7 @@ MonoBehaviour:
   m_Item:
     Type: {fileID: 11400000, guid: c11d93b063eaa9043b51fa3831599c63, type: 2}
     GiveOnContact: 1
-    helpbox: 166
+    helpbox: 133
   m_Recipient:
     Tags: []
     helpbox: 0
@@ -2021,7 +2021,7 @@ MonoBehaviour:
     SuccessMultiple: Picked up {4} {1}s.
     FailSingle: Can't carry any more {1}s.
     FailMultiple: Can't carry any more {1}s.
-    helpbox: 166
+    helpbox: 155
 --- !u!114 &11400060
 MonoBehaviour:
   m_ObjectHideFlags: 1

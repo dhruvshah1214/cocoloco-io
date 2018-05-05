@@ -3604,7 +3604,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -3628,7 +3628,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!82 &8200006
 AudioSource:
   m_ObjectHideFlags: 1
@@ -4515,7 +4515,7 @@ MonoBehaviour:
     IfOutOfAmmo: 1
     IfNotPresent: 1
     FirstTimeOnly: 1
-    helpbox: 89
+    helpbox: 78
   m_Misc:
     ResetOnRespawn: 1
 --- !u!114 &11400024
@@ -5703,7 +5703,7 @@ MonoBehaviour:
   DisableSpin: 0
   TossSounds: []
   ExtraPickups: []
-  surfaceTypeHelp: 128
+  surfaceTypeHelp: 117
 --- !u!114 &11492866
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5734,7 +5734,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: d5038622b1b2a6f43874b4c45ddadc71, type: 2}
   AllowDecals: 0
   SurfaceID: 0
-  surfaceTypeHelp: 150
+  surfaceTypeHelp: 139
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1

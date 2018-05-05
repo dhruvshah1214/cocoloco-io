@@ -2353,7 +2353,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -2377,7 +2377,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!82 &8200022
 AudioSource:
   m_ObjectHideFlags: 1
@@ -3412,7 +3412,7 @@ MonoBehaviour:
   m_Item:
     Type: {fileID: 11400000, guid: 4b6dc310f26918c46aee38b5fcacdbf9, type: 2}
     GiveOnContact: 1
-    helpbox: 177
+    helpbox: 133
   m_Recipient:
     Tags: []
     helpbox: 78
@@ -3426,7 +3426,7 @@ MonoBehaviour:
     SuccessMultiple: Picked up {4} {1}s.
     FailSingle: You already have {2}.
     FailMultiple: Can't pick up {4} {1}s right now.
-    helpbox: 188
+    helpbox: 155
 --- !u!114 &11400054
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3448,7 +3448,7 @@ MonoBehaviour:
   SpawnOnAwake: 0
   SpawnSound: {fileID: 0}
   SpawnFXPrefabs: []
-  helpbox: 155
+  helpbox: 111
 --- !u!114 &11400056
 MonoBehaviour:
   m_ObjectHideFlags: 1

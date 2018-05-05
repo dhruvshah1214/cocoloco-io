@@ -62,6 +62,12 @@ public class vp_FPInput : vp_Component
 	}
 
 
+
+	private int currentWeapon;
+	private bool isThrowingGrenade = false;
+
+
+
 	/// <summary>
 	/// registers this component with the event handler (if any)
 	/// </summary>
@@ -116,9 +122,13 @@ public class vp_FPInput : vp_Component
 		InputCrouch();
 
 		// manage input for weapons
-		InputAttack();
-		InputReload();
-		InputSetWeapon();
+		if (!isThrowingGrenade) {
+			InputAttack ();
+			InputReload ();
+			InputSetWeapon ();
+			GrenadeOneShot();
+
+		}
 
 		// manage camera related input
 		InputCamera();
@@ -645,5 +655,45 @@ public class vp_FPInput : vp_Component
 	}
 
 
+	protected virtual void GrenadeOneShot()
+	{
+		//you can change the name to whatever you like but it has to be the same as in the 
+		//UFPS Input Manager
+		if (vp_Input.GetButtonDown ("Grenade") && !isThrowingGrenade) {
+			isThrowingGrenade = true;
+			//Stores the current weapon to the int we just created
+			currentWeapon = FPPlayer.CurrentWeaponIndex.Get ();
+			//Switches to the grenade (change the "9" to the weapon number of your grenade 
+			//i believe its 4 by default
+			FPPlayer.SetWeapon.TryStart (5); 
+			//runs a timer to wait until the Equip animation finishes playing before trying to 
+			//throw the grenade (you can twak this to your liking by changing the "0.5f" up or 
+			//down)  
+			vp_Timer.In (0.4f, Throw);
+		} else {
+			FPPlayer.Attack.TryStop ();
+		}
+	}
+
+	void Throw ()
+	{
+		//throws the grenade
+		if (FPPlayer.CurrentWeaponIndex.Get () == 5) {
+			FPPlayer.Attack.TryStart ();
+			//sets a timer to wait until the throw animation has finished before switching 
+			//back to the previous weapon
+			vp_Timer.In (0.8f, ReEquip);
+		} else {
+			FPPlayer.Attack.TryStop ();
+		}
+
+	}
+
+	void ReEquip()
+	//switches back to the weapon that we stored as the previous weapon
+	{ 
+		FPPlayer.SetWeapon.TryStart(currentWeapon); 
+		isThrowingGrenade = false;
+	}
 }
 

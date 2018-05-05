@@ -134,7 +134,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -158,7 +158,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Item:
     Type: {fileID: 11400000, guid: 9c735e67aa6215240940ff57b7665829, type: 2}
     GiveOnContact: 1
-    helpbox: 155
+    helpbox: 133
   m_Recipient:
     Tags: []
     helpbox: 0

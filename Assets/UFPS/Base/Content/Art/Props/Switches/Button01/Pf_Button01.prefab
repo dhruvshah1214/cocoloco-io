@@ -101,7 +101,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: 13ec8cc62ee667645b976a0eb333e45a, type: 2}
   AllowDecals: 0
   SurfaceID: 0
-  surfaceTypeHelp: 172
+  surfaceTypeHelp: 139
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

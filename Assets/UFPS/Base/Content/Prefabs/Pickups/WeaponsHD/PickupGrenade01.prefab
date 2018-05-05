@@ -46,7 +46,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
@@ -148,7 +148,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -172,7 +172,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Item:
     Type: {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
     GiveOnContact: 1
-    helpbox: 166
+    helpbox: 133
   m_Recipient:
     Tags: []
     helpbox: 78
@@ -203,7 +203,7 @@ MonoBehaviour:
     SuccessMultiple: Picked up {4} {1}s.
     FailSingle: Can't pick up {2} right now.
     FailMultiple: Can't pick up {4} {1}s right now.
-    helpbox: 166
+    helpbox: 155
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -225,7 +225,7 @@ MonoBehaviour:
   SpawnOnAwake: 0
   SpawnSound: {fileID: 0}
   SpawnFXPrefabs: []
-  helpbox: 155
+  helpbox: 133
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Item:
     Type: {fileID: 11400000, guid: 3a65c1045a843bc4ba9680febc091edf, type: 2}
     GiveOnContact: 1
-    helpbox: 166
+    helpbox: 133
   m_Recipient:
     Tags: []
     helpbox: 78
@@ -256,7 +256,7 @@ MonoBehaviour:
     SuccessMultiple: 
     FailSingle: 
     FailMultiple: 
-    helpbox: 166
+    helpbox: 155
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1

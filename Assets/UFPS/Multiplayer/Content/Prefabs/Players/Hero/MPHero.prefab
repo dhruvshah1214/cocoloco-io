@@ -5020,10 +5020,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ItemRecords:
     itemList: 108
-    helpbox: 133
+    helpbox: 111
   m_ItemCaps:
     itemList: 177
-    helpbox: 100
+    helpbox: 89
   m_SpaceLimit:
     spaceLimit: 77
     helpbox: 133
@@ -5059,7 +5059,7 @@ MonoBehaviour:
     IfOutOfAmmo: 1
     IfNotPresent: 1
     FirstTimeOnly: 1
-    helpbox: 100
+    helpbox: 78
   m_Misc:
     ResetOnRespawn: 1
 --- !u!114 &11400054

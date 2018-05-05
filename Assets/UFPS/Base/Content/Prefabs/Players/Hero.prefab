@@ -3439,7 +3439,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -3463,7 +3463,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!82 &8200008
 AudioSource:
   m_ObjectHideFlags: 1
@@ -4392,10 +4392,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ItemRecords:
     itemList: 56
-    helpbox: 188
+    helpbox: 122
   m_ItemCaps:
     itemList: 88
-    helpbox: 144
+    helpbox: 100
   m_SpaceLimit:
     spaceLimit: 0
     helpbox: 0
@@ -4415,7 +4415,7 @@ MonoBehaviour:
     IfOutOfAmmo: 1
     IfNotPresent: 1
     FirstTimeOnly: 1
-    helpbox: 0
+    helpbox: 78
   m_Misc:
     ResetOnRespawn: 1
 --- !u!114 &11400038
@@ -4453,7 +4453,7 @@ MonoBehaviour:
   SpawnOnAwake: 0
   SpawnSound: {fileID: 8300000, guid: c6ffb5ccbd00a114494143e33e747a05, type: 3}
   SpawnFXPrefabs: []
-  helpbox: 144
+  helpbox: 133
 --- !u!114 &11400042
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5049,7 +5049,7 @@ MonoBehaviour:
   DisableSpin: 0
   TossSounds: []
   ExtraPickups: []
-  surfaceTypeHelp: 128
+  surfaceTypeHelp: 117
 --- !u!114 &11439970
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5064,7 +5064,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: d5038622b1b2a6f43874b4c45ddadc71, type: 2}
   AllowDecals: 0
   SurfaceID: 0
-  surfaceTypeHelp: 150
+  surfaceTypeHelp: 139
 --- !u!114 &11453304
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -151,21 +151,21 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1117200638
+--- !u!1 &552670579
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100002, guid: 463c8626f1e8cfd4b88e6022e888cb68, type: 2}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 1117200644}
-  - component: {fileID: 1117200643}
-  - component: {fileID: 1117200642}
-  - component: {fileID: 1117200641}
-  - component: {fileID: 1117200640}
-  - component: {fileID: 1117200639}
+  - component: {fileID: 552670585}
+  - component: {fileID: 552670584}
+  - component: {fileID: 552670583}
+  - component: {fileID: 552670582}
+  - component: {fileID: 552670581}
+  - component: {fileID: 552670580}
   m_Layer: 0
   m_Name: DemoGUI
   m_TagString: Untagged
@@ -173,25 +173,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1117200639
+--- !u!114 &552670580
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400008, guid: 463c8626f1e8cfd4b88e6022e888cb68,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1117200638}
+  m_GameObject: {fileID: 552670579}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1117200640
+--- !u!114 &552670581
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400000, guid: 463c8626f1e8cfd4b88e6022e888cb68,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1117200638}
+  m_GameObject: {fileID: 552670579}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f89c4c9d55011f74d9cbf7d74b00a6a8, type: 3}
@@ -202,27 +202,27 @@ MonoBehaviour:
   ChatSound: {fileID: 8300000, guid: 9b3e6dd7a632c0449bc1673b7f3cffe5, type: 3}
   ChatErrorSound: {fileID: 8300000, guid: 0a3ac2f66645b2b46aa8ae1fefe640c7, type: 3}
   FilterMode: 0
---- !u!114 &1117200641
+--- !u!114 &552670582
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400004, guid: 463c8626f1e8cfd4b88e6022e888cb68,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1117200638}
+  m_GameObject: {fileID: 552670579}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 12a809589c91ff94db48c48f48b66415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  helpBox: 117
+  helpBox: 128
   ProductName: Cocoloco.io
---- !u!114 &1117200642
+--- !u!114 &552670583
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400006, guid: 463c8626f1e8cfd4b88e6022e888cb68,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1117200638}
+  m_GameObject: {fileID: 552670579}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f21403533c4ed864da97e7dfda15065e, type: 3}
@@ -235,13 +235,13 @@ MonoBehaviour:
   MessageFont: {fileID: 12800000, guid: 4721e7a71e3620b4dac13fdc767ee80a, type: 3}
   BgTexture: {fileID: 0}
   DontDestroyOnLoad: 1
---- !u!114 &1117200643
+--- !u!114 &552670584
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400002, guid: 463c8626f1e8cfd4b88e6022e888cb68,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1117200638}
+  m_GameObject: {fileID: 552670579}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
@@ -258,23 +258,23 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 0}
   ObservedComponentsFoldoutOpen: 1
-  viewIdField: 901
-  instantiationId: 901
+  viewIdField: 1
+  instantiationId: 1
   currentMasterID: -1
   isRuntimeInstantiated: 0
---- !u!4 &1117200644
+--- !u!4 &552670585
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400002, guid: 463c8626f1e8cfd4b88e6022e888cb68, type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1117200638}
+  m_GameObject: {fileID: 552670579}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.6358347, y: 0.8478775, z: 0.08516693}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1972103925}
+  - {fileID: 1289422092}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1254623274
 GameObject:
@@ -293,7 +293,7 @@ GameObject:
   - component: {fileID: 1254623276}
   - component: {fileID: 1254623277}
   m_Layer: 0
-  m_Name: HelipadEscapeGame
+  m_Name: BeachLevel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -456,7 +456,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8683ba97d1fb64b9784862ef8af246f5, type: 2}
   m_AddPrefabs:
     Local:
-    - Prefab: {fileID: 100176, guid: 6a92a4c7511524d219244fff5e630a13, type: 2}
+    - Prefab: {fileID: 100176, guid: 5997fdb59448c4d45999e44848dc7b27, type: 2}
       ParentName: 
     Remote:
     - Prefab: {fileID: 100000, guid: 2ee56cc10b921a247bed60dd632d7a8e, type: 2}
@@ -530,15 +530,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1972103924
+--- !u!1 &1289422091
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100000, guid: 463c8626f1e8cfd4b88e6022e888cb68, type: 2}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 1972103925}
-  - component: {fileID: 1972103926}
+  - component: {fileID: 1289422092}
+  - component: {fileID: 1289422093}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -546,26 +546,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1972103925
+--- !u!4 &1289422092
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: 463c8626f1e8cfd4b88e6022e888cb68, type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1972103924}
+  m_GameObject: {fileID: 1289422091}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1117200644}
+  m_Father: {fileID: 552670585}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!20 &1972103926
+--- !u!20 &1289422093
 Camera:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2000000, guid: 463c8626f1e8cfd4b88e6022e888cb68,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1972103924}
+  m_GameObject: {fileID: 1289422091}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2

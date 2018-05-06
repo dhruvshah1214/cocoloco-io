@@ -188,7 +188,7 @@ MonoBehaviour:
   m_Item:
     Type: {fileID: 11400000, guid: 5448e0cc5a99a1c4f8a397ecbd268f5d, type: 2}
     GiveOnContact: 1
-    helpbox: 199
+    helpbox: 133
   m_Recipient:
     Tags: []
     helpbox: 78
@@ -202,7 +202,7 @@ MonoBehaviour:
     SuccessMultiple: Picked up {4} {1}s.
     FailSingle: Can't pick up {2} right now.
     FailMultiple: Can't pick up {4} {1}s right now.
-    helpbox: 188
+    helpbox: 155
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -224,7 +224,7 @@ MonoBehaviour:
   SpawnOnAwake: 0
   SpawnSound: {fileID: 0}
   SpawnFXPrefabs: []
-  helpbox: 155
+  helpbox: 133
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1

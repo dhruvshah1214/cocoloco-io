@@ -134,7 +134,8 @@ MonoBehaviour:
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
   ownershipTransfer: 0
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 0}
   ObservedComponentsFoldoutOpen: 1
   viewIdField: 0
   instantiationId: -1
@@ -151,8 +152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12a809589c91ff94db48c48f48b66415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  helpBox: 205
-  ProductName: UFPS
+  helpBox: 128
+  ProductName: Cocoloco.io
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1

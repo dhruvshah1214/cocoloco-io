@@ -665,7 +665,7 @@ public class vp_FPInput : vp_Component
 			currentWeapon = FPPlayer.CurrentWeaponIndex.Get ();
 			//Switches to the grenade (change the "9" to the weapon number of your grenade 
 			//i believe its 4 by default
-			FPPlayer.SetWeapon.TryStart (5); 
+			FPPlayer.SetWeapon.TryStart (4); 
 			//runs a timer to wait until the Equip animation finishes playing before trying to 
 			//throw the grenade (you can twak this to your liking by changing the "0.5f" up or 
 			//down)  
@@ -678,7 +678,7 @@ public class vp_FPInput : vp_Component
 	void Throw ()
 	{
 		//throws the grenade
-		if (FPPlayer.CurrentWeaponIndex.Get () == 5) {
+		if (FPPlayer.CurrentWeaponIndex.Get () == 4) {
 			FPPlayer.Attack.TryStart ();
 			//sets a timer to wait until the throw animation has finished before switching 
 			//back to the previous weapon

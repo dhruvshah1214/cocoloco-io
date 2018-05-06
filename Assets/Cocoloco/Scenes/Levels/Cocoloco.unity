@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44267482, g: 0.49180073, b: 0.57159775, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1415,7 +1415,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 0}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 0
+  surfaceTypeHelp: 128
 --- !u!114 &108016298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1430,7 +1430,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 0}
   AllowDecals: 1
   SurfaceID: 0
-  surfaceTypeHelp: 0
+  surfaceTypeHelp: 128
 --- !u!43 &112338684
 Mesh:
   m_ObjectHideFlags: 0
@@ -34046,7 +34046,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh86938
+  m_Name: pb_Mesh38518
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2

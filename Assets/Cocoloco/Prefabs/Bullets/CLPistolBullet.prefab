@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 11400000}
   - component: {fileID: 8200000}
   m_Layer: 0
-  m_Name: MachinegunBullet
+  m_Name: CLPistolBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -136,9 +136,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8745425c2759f946aa5fd67025cc099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Range: 200
-  Force: 100
-  Damage: 1
+  Range: 24
+  Force: 400
+  Damage: 2
   DamageMode: 1
   DamageMethodName: Damage
   ScanType: 0

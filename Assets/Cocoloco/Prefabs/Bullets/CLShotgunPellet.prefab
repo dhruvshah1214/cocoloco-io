@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 11400000}
   - component: {fileID: 8200000}
   m_Layer: 0
-  m_Name: MachinegunBullet
+  m_Name: CLShotgunPellet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -136,13 +136,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8745425c2759f946aa5fd67025cc099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Range: 200
-  Force: 100
-  Damage: 1
+  Range: 12
+  Force: 800
+  Damage: 3
   DamageMode: 1
   DamageMethodName: Damage
   ScanType: 0
-  ImpactEvent: {fileID: 11400000, guid: ec188bd98e9c00f41aaf177530adf1cb, type: 2}
+  ImpactEvent: {fileID: 11400000, guid: 5c22d075508c16a4fbfb9736b15913ff, type: 2}
   hitscanBulletHelp: 89
 --- !u!1002 &11400001
 EditorExtensionImpl:
@@ -161,8 +161,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: ImpactEvent
       value: 
-      objectReference: {fileID: 11400000, guid: ec188bd98e9c00f41aaf177530adf1cb,
+      objectReference: {fileID: 11400000, guid: 5c22d075508c16a4fbfb9736b15913ff,
         type: 2}
+    - target: {fileID: 0}
+      propertyPath: Damage
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100000}

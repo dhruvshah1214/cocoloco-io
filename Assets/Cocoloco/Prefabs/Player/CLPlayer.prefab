@@ -4294,7 +4294,7 @@ MonoBehaviour:
   MotorAirSpeed: 0.35
   MotorSlopeSpeedUp: 1
   MotorSlopeSpeedDown: 1
-  MotorJumpForce: 0.11
+  MotorJumpForce: 0.16
   MotorJumpForceDamping: 0.08
   MotorJumpForceHold: 0.00177
   MotorJumpForceHoldDamping: 0.352
@@ -4532,7 +4532,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: d5038622b1b2a6f43874b4c45ddadc71, type: 2}
   AllowDecals: 0
   SurfaceID: 0
-  surfaceTypeHelp: 139
+  surfaceTypeHelp: 176
 --- !u!114 &11426446
 MonoBehaviour:
   m_ObjectHideFlags: 1

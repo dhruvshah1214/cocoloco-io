@@ -3287,7 +3287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Type: {fileID: 11400000, guid: 5556834425acf46909c6b951228b75db, type: 2}
   ID: 0
-  weaponHelp: 188
+  weaponHelp: 210
 --- !u!114 &11400010
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3299,9 +3299,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dc13c48b5ea45f47abb1efd236a5812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: {fileID: 11400000, guid: c8e997ef43b744c33ac9d2e93227e88f, type: 2}
+  Type: {fileID: 11400000, guid: 85b6d06bc0421402fb7ea55bef4cfd46, type: 2}
   ID: 0
-  weaponHelp: 199
+  weaponHelp: 210
 --- !u!114 &11400012
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4012,10 +4012,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ItemRecords:
     itemList: 171
-    helpbox: 122
+    helpbox: 144
   m_ItemCaps:
     itemList: 219
-    helpbox: 100
+    helpbox: 111
   m_SpaceLimit:
     spaceLimit: 77
     helpbox: 133
@@ -4074,10 +4074,10 @@ MonoBehaviour:
   m_AutoWield:
     Always: 0
     IfUnarmed: 1
-    IfOutOfAmmo: 1
-    IfNotPresent: 1
+    IfOutOfAmmo: 0
+    IfNotPresent: 0
     FirstTimeOnly: 1
-    helpbox: 78
+    helpbox: 89
   m_Misc:
     ResetOnRespawn: 1
 --- !u!114 &11400054
@@ -4115,7 +4115,7 @@ MonoBehaviour:
   SpawnOnAwake: 0
   SpawnSound: {fileID: 8300000, guid: c6ffb5ccbd00a114494143e33e747a05, type: 3}
   SpawnFXPrefabs: []
-  helpbox: 161
+  helpbox: 155
 --- !u!114 &11400058
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4532,7 +4532,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: d5038622b1b2a6f43874b4c45ddadc71, type: 2}
   AllowDecals: 0
   SurfaceID: 0
-  surfaceTypeHelp: 176
+  surfaceTypeHelp: 172
 --- !u!114 &11426446
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4554,7 +4554,7 @@ MonoBehaviour:
   DisableSpin: 0
   TossSounds: []
   ExtraPickups: []
-  surfaceTypeHelp: 134
+  surfaceTypeHelp: 128
 --- !u!114 &11432062
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5557,7 +5557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Type: {fileID: 11400000, guid: c8e997ef43b744c33ac9d2e93227e88f, type: 2}
   ID: 0
-  weaponHelp: 188
+  weaponHelp: 210
 --- !u!114 &114761474925269100
 MonoBehaviour:
   m_ObjectHideFlags: 1

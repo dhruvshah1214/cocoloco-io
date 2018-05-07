@@ -1251,7 +1251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12a809589c91ff94db48c48f48b66415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  helpBox: 117
+  helpBox: 128
   ProductName: Cocoloco.io
 --- !u!114 &739066643
 MonoBehaviour:
@@ -2193,7 +2193,7 @@ MonoBehaviour:
   GameLength: 300
   PauseLength: 20
   CurrentLevel: UFPSMP_HelipadEscape
-  currentLevelHelp: 73
+  currentLevelHelp: 95
 --- !u!114 &1353134386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2250,7 +2250,7 @@ MonoBehaviour:
       ParentName: Head
     - Prefab: {fileID: 100000, guid: 2ee56cc10b921a247bed60dd632d7a8e, type: 2}
       ParentName: Char1__Head
-    addPrefabsHelp: 89
+    addPrefabsHelp: 122
   m_AddComponents:
     Local:
     - ComponentName: vp_DMPlayerStats
@@ -2258,7 +2258,7 @@ MonoBehaviour:
     Remote:
     - ComponentName: vp_DMPlayerStats
       TransformName: 
-    addComponentsHelp: 122
+    addComponentsHelp: 100
 --- !u!114 &1353134389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2319,7 +2319,7 @@ MonoBehaviour:
   RestoreInterval: 3
   RestoreDistance: 2
   PlayerHeight: 2
-  helpBox: 73
+  helpBox: 106
 --- !u!1 &1372299327
 GameObject:
   m_ObjectHideFlags: 1

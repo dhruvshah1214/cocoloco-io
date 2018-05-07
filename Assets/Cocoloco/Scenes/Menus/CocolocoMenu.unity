@@ -121,7 +121,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 51923375}
-  - component: {fileID: 51923374}
   m_Layer: 0
   m_Name: Timers (2 / 2)
   m_TagString: Untagged
@@ -129,17 +128,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &51923374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 51923373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eff12bd739032884e8ca7c88b2d5b905, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &51923375
 Transform:
   m_ObjectHideFlags: 0
@@ -165,7 +153,6 @@ GameObject:
   - component: {fileID: 552670583}
   - component: {fileID: 552670582}
   - component: {fileID: 552670581}
-  - component: {fileID: 552670580}
   m_Layer: 0
   m_Name: DemoGUI
   m_TagString: Untagged
@@ -173,18 +160,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &552670580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400008, guid: 463c8626f1e8cfd4b88e6022e888cb68,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 552670579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &552670581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,7 +189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12a809589c91ff94db48c48f48b66415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  helpBox: 128
+  helpBox: 194
   ProductName: Cocoloco.io
 --- !u!114 &552670583
 MonoBehaviour:
@@ -292,6 +267,9 @@ GameObject:
   - component: {fileID: 1254623275}
   - component: {fileID: 1254623276}
   - component: {fileID: 1254623277}
+  - component: {fileID: 1254623278}
+  - component: {fileID: 1254623286}
+  - component: {fileID: 1254623287}
   m_Layer: 0
   m_Name: BeachLevel
   m_TagString: Untagged
@@ -314,7 +292,7 @@ MonoBehaviour:
   RestoreInterval: 3
   RestoreDistance: 2
   PlayerHeight: 2
-  helpBox: 84
+  helpBox: 106
 --- !u!114 &1254623276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,7 +307,7 @@ MonoBehaviour:
   GameLength: 0
   PauseLength: 20
   CurrentLevel: Cocoloco
-  currentLevelHelp: 73
+  currentLevelHelp: 95
 --- !u!82 &1254623277
 AudioSource:
   m_ObjectHideFlags: 0
@@ -410,6 +388,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &1254623278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1254623274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53ff431f33bd44144b21604833bbeade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SyncPropHealth: 0
 --- !u!114 &1254623280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -455,23 +445,21 @@ MonoBehaviour:
   AvailablePlayerTypes:
   - {fileID: 11400000, guid: 8683ba97d1fb64b9784862ef8af246f5, type: 2}
   m_AddPrefabs:
-    Local:
-    - Prefab: {fileID: 100176, guid: 5997fdb59448c4d45999e44848dc7b27, type: 2}
-      ParentName: 
+    Local: []
     Remote:
     - Prefab: {fileID: 100000, guid: 2ee56cc10b921a247bed60dd632d7a8e, type: 2}
       ParentName: Head
     - Prefab: {fileID: 100000, guid: 2ee56cc10b921a247bed60dd632d7a8e, type: 2}
       ParentName: Char1__Head
-    addPrefabsHelp: 100
+    addPrefabsHelp: 122
   m_AddComponents:
     Local:
-    - ComponentName: vp_DMPlayerStats
+    - ComponentName: CLPlayerStats
       TransformName: 
     Remote:
-    - ComponentName: vp_DMPlayerStats
+    - ComponentName: CLPlayerStats
       TransformName: 
-    addComponentsHelp: 89
+    addComponentsHelp: 100
 --- !u!114 &1254623283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -530,6 +518,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1254623286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1254623274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4117e4fe816d18245a12a8515030bada, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SyncPropHealth: 0
+--- !u!114 &1254623287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1254623274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f65e8661db2e4628aa9846dc839e316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Font: {fileID: 12800000, guid: 4721e7a71e3620b4dac13fdc767ee80a, type: 3}
+  TextFontSize: 14
+  CaptionFontSize: 25
+  TeamNameFontSize: 35
+  TeamScoreFontSize: 50
+  Background: {fileID: 2800000, guid: 82a23b1be8e30a942add6ca06f317e8a, type: 3}
+  m_VisibleStatNames:
+  - Killstreak
 --- !u!1 &1289422091
 GameObject:
   m_ObjectHideFlags: 0

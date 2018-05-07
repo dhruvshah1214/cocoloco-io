@@ -90,10 +90,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/UFPS/Multiplayer/Content/Levels/Examples/UFPSMP_TestMap_Menu.unity
     guid: b3959f2a4ad1d9f4982b5141cf938dc7
-  - enabled: 0
+  - enabled: 1
     path: Assets/UFPS/Multiplayer/Content/Levels/HelipadEscape/UFPSMP_HelipadEscape_Menu.unity
     guid: 8e05dcf94a2b2044f9ecb31b69a05a7f
-  - enabled: 0
+  - enabled: 1
     path: Assets/UFPS/Multiplayer/Content/Levels/HelipadEscape/UFPSMP_HelipadEscape.unity
     guid: 9f7ed554a4adce441b837b87b5783332
   - enabled: 1

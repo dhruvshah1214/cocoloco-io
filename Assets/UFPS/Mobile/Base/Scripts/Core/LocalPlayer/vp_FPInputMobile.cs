@@ -1,9 +1,9 @@
 ﻿/////////////////////////////////////////////////////////////////////////////////
 //
 //	vp_FPInputMobile.cs
-//	© VisionPunk. All Rights Reserved.
-//	https://twitter.com/VisionPunk
-//	http://www.visionpunk.com
+//	© Opsive. All Rights Reserved.
+//	https://twitter.com/Opsive
+//	http://www.opsive.com
 //
 //	description:	This extends vp_FPInput in order to override the GetButton
 //					methods and allow support for touch controls for vp_UI system
@@ -82,11 +82,9 @@ public class vp_FPInputMobile : vp_FPInput
 		
 		if(FPPlayer.Reload.Active)
 			return;
-		
-		if (vp_Input.GetButtonAny("Attack"))
-			FPPlayer.Attack.TryStart();
-		else
-			FPPlayer.Attack.TryStop();
+
+		if (vp_Input.GetButtonAny ("Attack"))
+			FPPlayer.Fire.Try ();
 			
 	}
 	
@@ -227,8 +225,8 @@ public class vp_FPInputMobile : vp_FPInput
 	/// </summary>
 	protected override void UpdateCursorLock()
 	{
-	
-		if(vp_GlobalEventReturn<bool>.Send("SimulateTouchWithMouse"))
+
+		if (vp_GlobalEventReturn<bool>.Send("SimulateTouchWithMouse"))
 			return;
 
 		// store the current mouse position as GUI coordinates
@@ -242,7 +240,8 @@ public class vp_FPInputMobile : vp_FPInput
 		// across the whole screen and firing will be disabled
 		if (MouseCursorForced)
 		{
-			Screen.lockCursor = false;
+			if (vp_Utility.LockCursor)
+				vp_Utility.LockCursor = false;
 			return;
 		}
 
@@ -260,7 +259,8 @@ public class vp_FPInputMobile : vp_FPInput
 					{
 						// mouse is being held down inside a mouse cursor zone, so make
 						// sure the cursor is not locked and don't lock it this frame
-						Screen.lockCursor = false;
+						if (vp_Utility.LockCursor)
+							vp_Utility.LockCursor = false;
 						goto DontLock;
 					}
 				}
@@ -268,16 +268,26 @@ public class vp_FPInputMobile : vp_FPInput
 
 			// no zones prevent firing the current weapon. hide mouse cursor
 			// and lock it at the center of the screen
-			Screen.lockCursor = true;
+			if (!vp_Utility.LockCursor)
+				vp_Utility.LockCursor = true;
 
 		}
 
 	DontLock:
 
 		// if user presses 'ENTER', toggle mouse cursor on / off
-		if (vp_Input.GetButtonUp("Accept1") || vp_Input.GetButtonUp("Accept2"))
-			Screen.lockCursor = !Screen.lockCursor;
-
+		if (vp_Input.GetButtonUp("Accept1")
+			|| vp_Input.GetButtonUp("Accept2")
+			|| vp_Input.GetButtonUp("Menu")
+			)
+		{
+#if UNITY_EDITOR && UNITY_5
+			if (Input.GetKeyUp(KeyCode.Escape))
+				vp_Utility.LockCursor = false;
+			else
+#endif
+				vp_Utility.LockCursor = !vp_Utility.LockCursor;
+		}
 	}
 	
 }

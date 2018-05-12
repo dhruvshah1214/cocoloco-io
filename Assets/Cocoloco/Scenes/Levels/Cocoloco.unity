@@ -35339,7 +35339,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 15d7fa462da0e2043ae5990face889e2, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 15d7fa462da0e2043ae5990face889e2, type: 2}
       propertyPath: m_SpawnMode

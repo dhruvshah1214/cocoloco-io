@@ -141,6 +141,324 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &535736774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 193874, guid: 4929b78679c30964298f53e2b2022f4a, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 535736786}
+  - component: {fileID: 535736785}
+  - component: {fileID: 535736784}
+  - component: {fileID: 535736783}
+  - component: {fileID: 535736782}
+  - component: {fileID: 535736781}
+  - component: {fileID: 535736780}
+  - component: {fileID: 535736779}
+  - component: {fileID: 535736778}
+  - component: {fileID: 535736777}
+  - component: {fileID: 535736776}
+  - component: {fileID: 535736775}
+  - component: {fileID: 535736787}
+  m_Layer: 0
+  m_Name: BeachLevelMobile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &535736775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 535736774}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f65e8661db2e4628aa9846dc839e316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Font: {fileID: 12800000, guid: 4721e7a71e3620b4dac13fdc767ee80a, type: 3}
+  TextFontSize: 14
+  CaptionFontSize: 25
+  TeamNameFontSize: 35
+  TeamScoreFontSize: 50
+  Background: {fileID: 2800000, guid: 82a23b1be8e30a942add6ca06f317e8a, type: 3}
+  m_VisibleStatNames:
+  - Killstreak
+--- !u!114 &535736776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 535736774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4117e4fe816d18245a12a8515030bada, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SyncPropHealth: 0
+--- !u!114 &535736777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 535736774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53ff431f33bd44144b21604833bbeade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SyncPropHealth: 0
+--- !u!82 &535736778
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 535736774}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &535736779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 535736774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f9bb6d3a80450241a0827e0e9d6f179, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameLength: 0
+  PauseLength: 20
+  CurrentLevel: CocolocoMobile
+  currentLevelHelp: 62
+--- !u!114 &535736780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 535736774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3dd47fc4c9b3144399a16778d21369c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckInterval: 1
+  RestoreInterval: 3
+  RestoreDistance: 2
+  PlayerHeight: 2
+  helpBox: 73
+--- !u!114 &535736781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11493866, guid: 4929b78679c30964298f53e2b2022f4a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 535736774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53f362d9f059684dbd6ba118ec1c4a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemTypes:
+  - {fileID: 11400000, guid: c8e997ef43b744c33ac9d2e93227e88f, type: 2}
+  - {fileID: 11400000, guid: 5556834425acf46909c6b951228b75db, type: 2}
+  - {fileID: 11400000, guid: 85b6d06bc0421402fb7ea55bef4cfd46, type: 2}
+  - {fileID: 11400000, guid: 62425c407435d478a98d7809208361bf, type: 2}
+  - {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
+--- !u!114 &535736782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11493864, guid: 4929b78679c30964298f53e2b2022f4a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 535736774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ca72c9ae51a34a49a9871bb5c35b6fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &535736783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11493862, guid: 4929b78679c30964298f53e2b2022f4a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 535736774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0d434a5b6e8ab449a1b0ec94ac6b15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AvailablePlayerTypes:
+  - {fileID: 11400000, guid: f341bfea6bff345a18498baa9eb5d602, type: 2}
+  m_AddPrefabs:
+    Local: []
+    Remote:
+    - Prefab: {fileID: 100000, guid: 2ee56cc10b921a247bed60dd632d7a8e, type: 2}
+      ParentName: Head
+    - Prefab: {fileID: 100000, guid: 2ee56cc10b921a247bed60dd632d7a8e, type: 2}
+      ParentName: Char1__Head
+    addPrefabsHelp: 89
+  m_AddComponents:
+    Local:
+    - ComponentName: CLPlayerStats
+      TransformName: 
+    Remote:
+    - ComponentName: CLPlayerStats
+      TransformName: 
+    addComponentsHelp: 78
+--- !u!114 &535736784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11493860, guid: 4929b78679c30964298f53e2b2022f4a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 535736774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d52edb77de2e51d4dad5c0422f27abed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxPlayersPerRoom: 12
+  LogOnTimeOut: 5
+  MaxConnectionAttempts: 10
+  SceneToLoadOnDisconnect: SceneToLoadOnDisconnect
+  PingReportInterval: 10
+  DontDestroyOnLoad: 1
+--- !u!114 &535736785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11493858, guid: 4929b78679c30964298f53e2b2022f4a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 535736774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ownerId: 0
+  group: 0
+  OwnerShipWasTransfered: 0
+  prefixBackup: -1
+  synchronization: 0
+  onSerializeTransformOption: 3
+  onSerializeRigidBodyOption: 2
+  ownershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 0}
+  ObservedComponentsFoldoutOpen: 1
+  viewIdField: 902
+  instantiationId: 902
+  currentMasterID: -1
+  isRuntimeInstantiated: 0
+--- !u!4 &535736786
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 493874, guid: 4929b78679c30964298f53e2b2022f4a, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 535736774}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6358347, y: 0.8478775, z: 0.08516693}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &535736787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 535736774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78face21eefa64afca01db3d017c2948, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Font: {fileID: 12800000, guid: 4721e7a71e3620b4dac13fdc767ee80a, type: 3}
+  TextFontSize: 14
+  CaptionFontSize: 25
+  TeamNameFontSize: 35
+  TeamScoreFontSize: 50
+  Background: {fileID: 2800000, guid: 82a23b1be8e30a942add6ca06f317e8a, type: 3}
+  m_VisibleStatNames:
+  - Killstreak
 --- !u!1 &552670579
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,7 +507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12a809589c91ff94db48c48f48b66415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  helpBox: 194
+  helpBox: 117
   ProductName: Cocoloco.io
 --- !u!114 &552670583
 MonoBehaviour:
@@ -276,7 +594,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1254623275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,7 +610,7 @@ MonoBehaviour:
   RestoreInterval: 3
   RestoreDistance: 2
   PlayerHeight: 2
-  helpBox: 106
+  helpBox: 73
 --- !u!114 &1254623276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,7 +625,7 @@ MonoBehaviour:
   GameLength: 0
   PauseLength: 20
   CurrentLevel: Cocoloco
-  currentLevelHelp: 95
+  currentLevelHelp: 62
 --- !u!82 &1254623277
 AudioSource:
   m_ObjectHideFlags: 0
@@ -451,7 +769,7 @@ MonoBehaviour:
       ParentName: Head
     - Prefab: {fileID: 100000, guid: 2ee56cc10b921a247bed60dd632d7a8e, type: 2}
       ParentName: Char1__Head
-    addPrefabsHelp: 122
+    addPrefabsHelp: 89
   m_AddComponents:
     Local:
     - ComponentName: CLPlayerStats
@@ -459,7 +777,7 @@ MonoBehaviour:
     Remote:
     - ComponentName: CLPlayerStats
       TransformName: 
-    addComponentsHelp: 100
+    addComponentsHelp: 78
 --- !u!114 &1254623283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -501,8 +819,8 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 0}
   ObservedComponentsFoldoutOpen: 1
-  viewIdField: 900
-  instantiationId: 900
+  viewIdField: 2
+  instantiationId: 2
   currentMasterID: -1
   isRuntimeInstantiated: 0
 --- !u!4 &1254623285

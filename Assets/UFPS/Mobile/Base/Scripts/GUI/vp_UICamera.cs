@@ -7,7 +7,7 @@ public class vp_UICamera : MonoBehaviour
 	public void Awake()
 	{
 
-        GetComponent<Camera>().transparencySortMode = TransparencySortMode.Orthographic;
+		GetComponent<Camera>().transparencySortMode = TransparencySortMode.Orthographic;
 
 	}
 	

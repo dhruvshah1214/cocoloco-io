@@ -1,9 +1,9 @@
 /////////////////////////////////////////////////////////////////////////////////
 //
 //	vp_SimpleHUDMobile.cs
-//	© VisionPunk. All Rights Reserved.
-//	https://twitter.com/VisionPunk
-//	http://www.visionpunk.com
+//	Â© Opsive. All Rights Reserved.
+//	https://twitter.com/Opsive
+//	http://www.opsive.com
 //
 //	description:	a version of the vp_SimpleHUD with a classic mobile FPS layout
 //
@@ -46,7 +46,7 @@ public class vp_SimpleHUDMobile : vp_SimpleHUD
 	protected vp_FPPlayerEventHandler m_PlayerEventHandler = null;
 	protected int m_Health{
 		get{
-			int health = (int)(m_PlayerEventHandler.Health.Get() * 100.0f);
+			int health = (int)(m_PlayerEventHandler.Health.Get() * 10.0f);
 			return health < 0 ? 0 : health;
 		}
 	}
@@ -60,16 +60,23 @@ public class vp_SimpleHUDMobile : vp_SimpleHUD
 
 		m_PlayerEventHandler = transform.root.GetComponentInChildren<vp_FPPlayerEventHandler>();
 		
+		SetLabels ();
+		
+	}
+
+	/// <summary>
+	/// sets label handlers (if any)
+	/// </summary>
+	public void SetLabels() {
 		if(AmmoLabel != null)	m_AmmoLabel = AmmoLabel.GetComponentInChildren<TextMesh>();
 		if(HealthLabel != null)	m_HealthLabel = HealthLabel.GetComponentInChildren<TextMesh>();
 		if(HintsLabel != null)	m_HintsLabel = HintsLabel.GetComponentInChildren<TextMesh>();
-		
+
 		if(m_HintsLabel != null)
 		{
 			m_HintsLabel.text = "";
 			m_HintsLabel.GetComponent<Renderer>().material.color = Color.clear;
 		}
-		
 	}
 
 

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 11400002}
   - component: {fileID: 11400000}
   - component: {fileID: 11400030}
+  - component: {fileID: 11493494}
   m_Layer: 0
   m_Name: 4Mace
   m_TagString: Untagged
@@ -125,7 +126,6 @@ GameObject:
   - component: {fileID: 11400040}
   - component: {fileID: 8200008}
   - component: {fileID: 8100002}
-  - component: {fileID: 11400036}
   - component: {fileID: 11400034}
   - component: {fileID: 11400032}
   - component: {fileID: 11400028}
@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 11400046}
   - component: {fileID: 11400050}
   - component: {fileID: 11400052}
+  - component: {fileID: 11461626}
   m_Layer: 30
   m_Name: AdvancedPlayerMobile
   m_TagString: Player
@@ -1859,70 +1860,6 @@ MonoBehaviour:
   MouseCursorZones: []
   MouseCursorForced: 0
   MouseCursorBlocksMouseLook: 0
---- !u!114 &11400036
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78db10b0c0e15b04193ec8d0d254c1bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SurfaceTypes:
-  - RandomPitch: {x: 1, y: 1.5}
-    Foldout: 0
-    SoundsFoldout: 0
-    TexturesFoldout: 1
-    SurfaceName: Rock
-    Sounds:
-    - {fileID: 8300000, guid: ad205fb7cd547dd429fe914d22582237, type: 3}
-    - {fileID: 8300000, guid: e146e86ee0fc4224cb3f74f2c96c61a6, type: 3}
-    - {fileID: 8300000, guid: 355305e19d615dc4589097f455f8248e, type: 3}
-    - {fileID: 8300000, guid: afd619365e3cded41a442fb36295a594, type: 3}
-    - {fileID: 8300000, guid: 6264932e40dd94d46b470928ad0cf243, type: 3}
-    - {fileID: 8300000, guid: 6f56367b7b461f7419e53d5351bee0c8, type: 3}
-    - {fileID: 8300000, guid: 192802a31ffc6c245af2135abcd4361d, type: 3}
-    - {fileID: 8300000, guid: f2ee8603401ff8144ba61adeeec9d9d9, type: 3}
-    Textures:
-    - {fileID: 2800000, guid: e6c425fe3f067e340bac90e63e1f2f0b, type: 3}
-    - {fileID: 2800000, guid: 40d893ad9d95dc44bbcdc06ec634d38c, type: 3}
-    - {fileID: 2800000, guid: 2a1f4c12bcff5bd449e153ab06498e77, type: 3}
-    - {fileID: 2800000, guid: cf0725f27ae887048b8829b4cd66949b, type: 3}
-    - {fileID: 2800000, guid: c43c3743c17f60e4797c9b2fa52b25ec, type: 3}
-  - RandomPitch: {x: 1, y: 1.5}
-    Foldout: 0
-    SoundsFoldout: 0
-    TexturesFoldout: 1
-    SurfaceName: Gravel
-    Sounds:
-    - {fileID: 8300000, guid: 87449672dbc9c1f4c8b8927dc5e4068d, type: 3}
-    - {fileID: 8300000, guid: d1d191fe1ffe8894198ae9aa7e092a88, type: 3}
-    - {fileID: 8300000, guid: 0303cca93ffc4ea4e874dc90eacfd328, type: 3}
-    - {fileID: 8300000, guid: b240fc383b9e7054b813e1e945d8e41d, type: 3}
-    - {fileID: 8300000, guid: 1dcdaa72f984cbe4da42280459623046, type: 3}
-    - {fileID: 8300000, guid: be4634436519be0439f9973d83a28542, type: 3}
-    - {fileID: 8300000, guid: 3bc9cd135e66eb3489c9ab7ae11e019e, type: 3}
-    - {fileID: 8300000, guid: eddbaebff71e9f140b876cd8cdfa2e8a, type: 3}
-    Textures:
-    - {fileID: 2800000, guid: 62e0fabbceb643d418028eead4649819, type: 3}
-  - RandomPitch: {x: 1, y: 1.5}
-    Foldout: 0
-    SoundsFoldout: 0
-    TexturesFoldout: 0
-    SurfaceName: Grass
-    Sounds:
-    - {fileID: 8300000, guid: 740b8a11580d8b846bfad23bb75e5f27, type: 3}
-    - {fileID: 8300000, guid: 907da0d855336fb43888427a1680a85c, type: 3}
-    - {fileID: 8300000, guid: 91f05f27d99d63b468b613f00a079951, type: 3}
-    - {fileID: 8300000, guid: 6e02080dcd1a488429a9f70a6c498a61, type: 3}
-    - {fileID: 8300000, guid: 48a10742beba43f4daa2aeb556a06f9b, type: 3}
-    - {fileID: 8300000, guid: 653027b8441cc9948b2b1bc074cdc125, type: 3}
-    - {fileID: 8300000, guid: ed418c805e2f4394cba716350bc6ca3b, type: 3}
-    - {fileID: 8300000, guid: 2c74650b5b0bc174382ce087a7f9bffd, type: 3}
-    Textures:
-    - {fileID: 2800000, guid: 14ad3be5b281d254485f73e09ceb02dc, type: 3}
 --- !u!114 &11400038
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2108,6 +2045,100 @@ MonoBehaviour:
   ArrowAngleOffset: -135
   ArrowVisibleDuration: 1.5
   ArrowShakeDuration: 0.125
+--- !u!114 &11461626
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9cddb3bbeb3d36468f00a5177c170e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Persist: 0
+  States:
+  - TypeName: vp_PlayerFootFXHandler
+    Name: Default
+    TextAsset: {fileID: 0}
+    StatesToBlock: 
+  Children: []
+  Siblings: []
+  Family: []
+  Renderers: []
+  AudioSources: []
+  Mode: 3
+  FootstepImpactEvent: {fileID: 11400000, guid: c0b41502587e193479870e9bf925797a,
+    type: 2}
+  FootLeft: {fileID: 0}
+  FootRight: {fileID: 0}
+  TriggerHeight: 0.1
+  Sensitivity: 1.25
+  TimeInterval: 0.35
+  RequireMoveInput: 0
+  VerifyGroundContact: 0
+  ForceAlwaysAnimate: 1
+  JumpImpactEvent: {fileID: 11400000, guid: 99b30508304e6ff4ea0b3bea16fdc130, type: 2}
+  FallImpactEvent: {fileID: 11400000, guid: 84d80447291911e46b7ff27e4a8902d4, type: 2}
+  FallImpactThreshold: 0.15
+  m_MuteLocalFootsteps: 0
+--- !u!114 &11493494
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a02e18bffdd5c1b458f442d33fbb9ec2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Persist: 0
+  States:
+  - TypeName: vp_WeaponShooter
+    Name: Default
+    TextAsset: {fileID: 0}
+    StatesToBlock: 
+  Children: []
+  Siblings: []
+  Family: []
+  Renderers: []
+  AudioSources: []
+  m_ProjectileSpawnPoint: {fileID: 0}
+  ProjectilePrefab: {fileID: 100000, guid: 8e2fb5503b2778b479b99c64c6ae33ef, type: 2}
+  ProjectileScale: 1
+  ProjectileFiringRate: 0.3
+  ProjectileSpawnDelay: 0
+  ProjectileCount: 1
+  ProjectileSpread: 0
+  ProjectileSourceIsRoot: 1
+  FireMessage: 
+  MuzzleFlashPosition: {x: 0, y: 0, z: 0}
+  MuzzleFlashScale: {x: 1, y: 1, z: 1}
+  MuzzleFlashFadeSpeed: 0.075
+  MuzzleFlashPrefab: {fileID: 0}
+  MuzzleFlashDelay: 0
+  m_MuzzleFlashSpawnPoint: {fileID: 0}
+  ShellPrefab: {fileID: 0}
+  ShellScale: 1
+  ShellEjectDirection: {x: 1, y: 1, z: 1}
+  ShellEjectPosition: {x: 1, y: 0, z: 1}
+  ShellEjectVelocity: 0.2
+  ShellEjectDelay: 0
+  ShellEjectSpin: 0
+  m_ShellEjectSpawnPoint: {fileID: 0}
+  SoundFire: {fileID: 0}
+  SoundFireDelay: 0
+  SoundFirePitch: {x: 1, y: 1}
+  FirePosition: {x: 0, y: 0, z: 0}
+  ProjectileTapFiringRate: 0.1
+  MotionPositionRecoil: {x: 0, y: 0, z: -0.035}
+  MotionRotationRecoil: {x: -10, y: 0, z: 0}
+  MotionRotationRecoilDeadZone: 0.5
+  MotionDryFireRecoil: -0.1
+  MotionRecoilDelay: 0
+  MuzzleFlashFirstShotMaxDeviation: 180
+  SoundDryFire: {fileID: 0}
 --- !u!143 &14300000
 CharacterController:
   m_ObjectHideFlags: 1

@@ -1314,8 +1314,6 @@ GameObject:
   - component: {fileID: 11404780}
   - component: {fileID: 11432062}
   - component: {fileID: 11426446}
-  - component: {fileID: 114453540819027138}
-  - component: {fileID: 114341844625077072}
   m_Layer: 30
   m_Name: CLPlayer
   m_TagString: Player
@@ -4014,10 +4012,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ItemRecords:
     itemList: 171
-    helpbox: 155
+    helpbox: 111
   m_ItemCaps:
     itemList: 219
-    helpbox: 122
+    helpbox: 89
   m_SpaceLimit:
     spaceLimit: 77
     helpbox: 133
@@ -4078,8 +4076,8 @@ MonoBehaviour:
     IfUnarmed: 1
     IfOutOfAmmo: 0
     IfNotPresent: 0
-    FirstTimeOnly: 1
-    helpbox: 100
+    FirstTimeOnly: 0
+    helpbox: 67
   m_Misc:
     ResetOnRespawn: 1
 --- !u!114 &11400054
@@ -4117,7 +4115,7 @@ MonoBehaviour:
   SpawnOnAwake: 0
   SpawnSound: {fileID: 8300000, guid: c6ffb5ccbd00a114494143e33e747a05, type: 3}
   SpawnFXPrefabs: []
-  helpbox: 188
+  helpbox: 111
 --- !u!114 &11400058
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4534,7 +4532,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: d5038622b1b2a6f43874b4c45ddadc71, type: 2}
   AllowDecals: 0
   SurfaceID: 0
-  surfaceTypeHelp: 205
+  surfaceTypeHelp: 128
 --- !u!114 &11426446
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4556,7 +4554,7 @@ MonoBehaviour:
   DisableSpin: 0
   TossSounds: []
   ExtraPickups: []
-  surfaceTypeHelp: 161
+  surfaceTypeHelp: 106
 --- !u!114 &11432062
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5473,75 +5471,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &114341844625077072
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41cf9c4ded4344f348c5ac53321346f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Persist: 0
-  States:
-  - TypeName: vp_FPInputMobile
-    Name: Zoom
-    TextAsset: {fileID: 4900000, guid: 9b846e3ad9cef4e489c6e4985d56aa01, type: 3}
-    StatesToBlock: 
-  - TypeName: vp_FPInputMobile
-    Name: Default
-    TextAsset: {fileID: 0}
-    StatesToBlock: 
-  Children: []
-  Siblings: []
-  Family: []
-  Renderers: []
-  AudioSources: []
-  MouseLookSensitivity: {x: 5, y: 5}
-  MouseLookMutePitch: 0
-  MouseLookMuteYaw: 0
-  MouseLookSmoothSteps: 10
-  MouseLookSmoothWeight: 0.5
-  MouseLookAcceleration: 0
-  MouseLookAccelerationThreshold: 0.4
-  MouseLookInvert: 0
-  MouseCursorZones: []
-  MouseCursorForced: 0
-  MouseCursorBlocksMouseLook: 0
---- !u!114 &114453540819027138
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bb6216b3b77d4a28aaf8513c3634b71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowHUD: 1
-  BigFont: {fileID: 0}
-  SmallFont: {fileID: 0}
-  MessageFont: {fileID: 0}
-  BigFontOffset: 69
-  SmallFontOffset: 56
-  Background: {fileID: 0}
-  HealthIcon: {fileID: 0}
-  HealthMultiplier: 10
-  HealthColor: {r: 1, g: 1, b: 1, a: 1}
-  HealthLowLevel: 2.5
-  HealthLowColor: {r: 0.75, g: 0, b: 0, a: 1}
-  HealthLowSound: {fileID: 0}
-  HealthLowSoundInterval: 1
-  AmmoColor: {r: 1, g: 1, b: 1, a: 1}
-  AmmoLowColor: {r: 0, g: 0, b: 0, a: 1}
-  FadeDuration: 3
-  ShowTips: 1
-  AmmoLabel: {fileID: 0}
-  HealthLabel: {fileID: 0}
-  HintsLabel: {fileID: 0}
 --- !u!114 &114667439713502032
 MonoBehaviour:
   m_ObjectHideFlags: 1

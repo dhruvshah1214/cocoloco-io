@@ -1,9 +1,9 @@
 ﻿/////////////////////////////////////////////////////////////////////////////////
 //
 //	vp_UIControl.cs
-//	© VisionPunk. All Rights Reserved.
-//	https://twitter.com/VisionPunk
-//	http://www.visionpunk.com
+//	© Opsive. All Rights Reserved.
+//	https://twitter.com/Opsive
+//	http://www.opsive.com
 //
 //	description:	base class for any UI Control that should be managed by UI Manager.
 //					Any class that is derived from this class will have the following
@@ -305,7 +305,7 @@ public class vp_UIControl : MonoBehaviour
 			return;
 
 		Gizmos.color = new Color( 1, 1, 1, 0.175f );
-		Gizmos.DrawWireCube(GetComponent<Collider>().bounds.center, GetComponent<Collider>().bounds.size );
+		Gizmos.DrawWireCube( GetComponent<Collider>().bounds.center, GetComponent<Collider>().bounds.size );
 
 	}
 #endif

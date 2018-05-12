@@ -1,9 +1,9 @@
 /////////////////////////////////////////////////////////////////////////////////
 //
 //	vp_UITouchController.cs
-//	© VisionPunk. All Rights Reserved.
-//	https://twitter.com/VisionPunk
-//	http://www.visionpunk.com
+//	Â© Opsive. All Rights Reserved.
+//	https://twitter.com/Opsive
+//	http://www.opsive.com
 //
 //	description:	Manages the gui and touch controls for a controller that
 //					controls the players movement
@@ -90,8 +90,15 @@ public class vp_UITouchController : vp_UIControl
 		m_DefaultKnobPosition = Knob.localPosition;
 		m_DefaultPanelPosition = m_PanelTransform.localPosition;
 		m_PadParticles = Knob.GetComponent<ParticleSystem>();
-		if(m_PadParticles != null)
+		if (m_PadParticles != null)
+		{
+#if UNITY_5_4_OR_NEWER
+			ParticleSystem.EmissionModule module = m_PadParticles.emission;
+			module.enabled = false;
+#else
 			m_PadParticles.enableEmission = false;
+#endif
+		}
 		
 		if(Knob.GetComponent<Collider>() != null)
 			m_KnobArea = Knob.GetComponent<Collider>().bounds;
@@ -177,9 +184,16 @@ public class vp_UITouchController : vp_UIControl
 		
 		KnobColor = m_ControllerType == vp_UITouchController.vp_TouchControllerType.StaticJoystick ? knobOnColor : knobOffColor;
 		BackgroundColor = m_ControllerType == vp_UITouchController.vp_TouchControllerType.StaticJoystick ? backgroundOnColor : backgroundOffColor;
-		
-		if(m_PadParticles != null)
+
+		if (m_PadParticles != null)
+		{
+#if UNITY_5_4_OR_NEWER
+			ParticleSystem.EmissionModule module = m_PadParticles.emission;
+			module.enabled = false;
+#else
 			m_PadParticles.enableEmission = false;
+#endif
+		}
 			
 		if(ControllerTypeChanged != null)
 			ControllerTypeChanged(m_ControllerType);
@@ -287,8 +301,13 @@ public class vp_UITouchController : vp_UIControl
     
     	if(m_PadParticles == null)
     		return;
-    
-    	m_PadParticles.enableEmission = enable;
+
+#if UNITY_5_4_OR_NEWER
+		ParticleSystem.EmissionModule module = m_PadParticles.emission;
+		module.enabled = enable;
+#else
+		m_PadParticles.enableEmission = enable;
+#endif
     	
     }
     

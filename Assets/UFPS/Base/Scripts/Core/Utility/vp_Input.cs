@@ -167,6 +167,7 @@ public class vp_Input : MonoBehaviour
 			if (ButtonKeys.Count == 0)
 			{
 				AddButton("Attack", KeyCode.Mouse0);
+				AddButton("Grenade", KeyCode.G);
 				AddButton("SetNextWeapon", KeyCode.E);
 				AddButton("SetPrevWeapon", KeyCode.Q);
 				AddButton("ClearWeapon", KeyCode.Backspace);
@@ -202,7 +203,8 @@ public class vp_Input : MonoBehaviour
 				// which corresponds to the right trigger. see the snippet in 'vp_FPInput -> InputAttack' to enable this
 
 				AddSecondaryButton("Attack", KeyCode.JoystickButton5);			// right bumper
-				AddSecondaryButton("SetNextWeapon", KeyCode.JoystickButton3);	// Y button
+				AddSecondaryButton ("Grenade", KeyCode.JoystickButton3); // Y button
+				AddSecondaryButton("SetNextWeapon", KeyCode.None);	
 				AddSecondaryButton("SetPrevWeapon", KeyCode.None);
 				AddSecondaryButton("ClearWeapon", KeyCode.None);
 				AddSecondaryButton("Zoom", KeyCode.JoystickButton4);			// left bumper

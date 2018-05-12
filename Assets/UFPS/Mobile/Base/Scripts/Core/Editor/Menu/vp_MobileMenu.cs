@@ -8,7 +8,7 @@ public class vp_MobileMenu : Editor
 	[MenuItem("UFPS/Mobile/Manual", false, 121)]
 	public static void Manual()
 	{
-		Application.OpenURL("http://www.visionpunk.com/hub/assets/ufpsmobile/manual");
+		Application.OpenURL("http://www.opsive.com/assets/UFPS/hub/assets/ufpsmobile/manual");
 	}
 
 	[MenuItem("UFPS/Mobile/Create/UI Root", false, 123)]
@@ -295,8 +295,8 @@ public class vp_MobileMenu : Editor
 			
 		if(go.GetComponent<Renderer>() != null)
 		{
-			go.GetComponent<Renderer>().material = new Material(Shader.Find("Sprites/Transparent Unlit"));
-			go.GetComponent<Renderer>().castShadows = false;
+			go.GetComponent<Renderer>().material = new Material(Shader.Find("Unlit/Alpha"));
+			go.GetComponent<Renderer>().shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
 			go.GetComponent<Renderer>().receiveShadows = false;
 		}
 	
@@ -437,13 +437,6 @@ public static class vp_MobileUtilities
 
 		Selection.activeGameObject = go;
 
-	}
-
-
-	[MenuItem("UFPS/Mobile/Check for Updates", false, 127)]
-	public static void CheckForUpdates()
-	{
-		vp_UpdateDialog.Create("ufpsmobile", UFPSMobileInfo.Version);
 	}
 
 

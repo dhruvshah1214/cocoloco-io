@@ -1,9 +1,9 @@
 ﻿/////////////////////////////////////////////////////////////////////////////////
 //
 //	vp_UIDropdownList.cs
-//	© VisionPunk. All Rights Reserved.
-//	https://twitter.com/VisionPunk
-//	http://www.visionpunk.com
+//	© Opsive. All Rights Reserved.
+//	https://twitter.com/Opsive
+//	http://www.opsive.com
 //
 //	description:	This control creates a basic dropdown list from each line in
 //					the Items string
@@ -120,7 +120,7 @@ public class vp_UIDropdownList : vp_UIControl
 		rend.material.mainTexture = ItemBackground;
 		rend.material.shader = Background.GetComponent<MeshRenderer>().material.shader;
 		rend.receiveShadows = false;
-		rend.castShadows = false;
+		rend.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
 		rend.material.color = Color.white;
 		background.transform.localScale = new Vector3(Background.localScale.x, ItemHeight, 1);
 		background.transform.localPosition = new Vector3(Background.localPosition.x, -(background.transform.localScale.y * i), Background.localPosition.z - 20);

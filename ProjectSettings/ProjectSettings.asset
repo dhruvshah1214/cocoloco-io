@@ -161,7 +161,7 @@ PlayerSettings:
     Android: com.Company.ProductName
     Standalone: unity.DefaultCompany.UFPS
     Tizen: com.Company.ProductName
-    iOS: com.Company.ProductName
+    iOS: com.dhruv.cocoloco
     tvOS: com.Company.ProductName
   buildNumber:
     iOS: 0
@@ -577,7 +577,7 @@ PlayerSettings:
   webGLCompressionFormat: 1
   scriptingDefineSymbols: {}
   platformArchitecture:
-    iOS: 2
+    iOS: 0
   scriptingBackend:
     Android: 0
     Metro: 2

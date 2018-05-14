@@ -7,10 +7,10 @@ PlayerSettings:
   productGUID: 706e8717f95a749c283601f6ada3b16e
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
-  defaultScreenOrientation: 0
+  defaultScreenOrientation: 2
   targetDevice: 2
   useOnDemandResources: 0
-  accelerometerFrequency: 60
+  accelerometerFrequency: 0
   companyName: Cocoloco Inc.
   productName: Cocoloco.io
   defaultCursor: {fileID: 0}
@@ -190,7 +190,7 @@ PlayerSettings:
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIRequiresFullScreen: 1
-  uIStatusBarHidden: 1
+  uIStatusBarHidden: 0
   uIExitOnSuspend: 0
   uIStatusBarStyle: 0
   iPhoneSplashScreen: {fileID: 0}
@@ -240,10 +240,10 @@ PlayerSettings:
   metalEditorSupport: 0
   metalAPIValidation: 1
   iOSRenderExtraFrameOnPause: 1
-  appleDeveloperTeamID: 
+  appleDeveloperTeamID: AR3SCLPX8S
   iOSManualSigningProvisioningProfileID: 
   tvOSManualSigningProvisioningProfileID: 
-  appleEnableAutomaticSigning: 0
+  appleEnableAutomaticSigning: 1
   clonedFromGUID: 295c23978312da341813616276ac8cc7
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
@@ -286,7 +286,7 @@ PlayerSettings:
   openGLRequireES31AEP: 0
   m_TemplateCustomTags: {}
   mobileMTRendering:
-    iPhone: 1
+    iPhone: 0
     tvOS: 1
   m_BuildTargetGroupLightmapEncodingQuality:
   - m_BuildTarget: Standalone
@@ -577,14 +577,14 @@ PlayerSettings:
   webGLCompressionFormat: 1
   scriptingDefineSymbols: {}
   platformArchitecture:
-    iOS: 0
+    iOS: 2
   scriptingBackend:
     Android: 0
     Metro: 2
     Standalone: 0
     WP8: 2
     WebGL: 1
-    iOS: 0
+    iOS: 1
   incrementalIl2cppBuild:
     iOS: 0
   additionalIl2CppArgs: 

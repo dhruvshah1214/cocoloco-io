@@ -11,32 +11,70 @@ public class MPRootUIConnector : MonoBehaviour {
 	public GameObject HealthLabel = null;		// a gameobject that has a TextMesh component for Health label
 	public GameObject HintsLabel = null;		// a gameobject that has a TextMesh component for Hints label
 
+
+	private GameObject localPlayer = null;
+	private bool isRefreshed = false;
+
 	// Use this for initialization
 	void Start () {
 		Debug.Log ("SETTING");
 
-		GameObject gc = GameObject.FindGameObjectWithTag ("Player");
-		RootUIManager.Player = gc.GetComponent<vp_FPPlayerEventHandler> ();
 
 
-		RootUIController.SimpleHUD = gc.GetComponent<vp_SimpleHUDMobile> ();
-
-		RootUIController.SimpleHUD.AmmoLabel = AmmoLabel;
-		RootUIController.SimpleHUD.HealthLabel = HealthLabel;
-		RootUIController.SimpleHUD.HintsLabel = HintsLabel;
-
-		RootUIManager.ForceUIRefresh ();
-		RootUIManager.enabled = true;
-
-		RootUIController.SimpleHUD.SetLabels ();
-
-
-		Debug.Log ("DONE");
+		localPlayer = GetLocalPlayer ();
+		if (localPlayer == null) {
+			Debug.Log ("START LOCAL PLAYER NOT FOUND!");
+		} else {
+			doRefresh ();
+		}
 
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (localPlayer == null) {
+			Debug.Log ("UPDTAE LOCAL PLAYER NOT FOUND!");
+
+			localPlayer = GetLocalPlayer ();
+		} else {
+			doRefresh ();
+		}
+	}
+
+	private GameObject GetLocalPlayer()
+	{
+		GameObject[] objects = GameObject.FindGameObjectsWithTag ("Player");
+		foreach (GameObject obj in objects)
+		{
+			if (obj.layer.Equals(LayerMask.NameToLayer("LocalPlayer"))) // localplayer
+			{
+				return obj;
+			}
+		}
+		return null;
+	}
+
+	private void doRefresh() {
+		if (isRefreshed.Equals(true)) {
+			return;
+		}
+		RootUIManager.Player = localPlayer.GetComponent<vp_FPPlayerEventHandler> ();
+
+
+		RootUIController.SimpleHUD = localPlayer.GetComponent<vp_SimpleHUDMobile> ();
+
+		RootUIController.SimpleHUD.AmmoLabel = AmmoLabel;
+		RootUIController.SimpleHUD.HealthLabel = HealthLabel;
+		RootUIController.SimpleHUD.HintsLabel = HintsLabel;
+
+
+
+		RootUIController.SimpleHUD.SetLabels ();
+
+		RootUIManager.enabled = true;
+		RootUIManager.ForceUIRefresh ();
+
+		Debug.Log ("DONE");
+		isRefreshed = true;
 	}
 }

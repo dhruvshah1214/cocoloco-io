@@ -26,3 +26,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cocoloco/Scenes/Levels/CocolocoMobile.unity
     guid: 8f10f86a1c3e54f6da435a1d97d5ce9a
+  - enabled: 0
+    path: Assets/Cocoloco/Scenes/Levels/Cocoloco.unity
+    guid: fef5eb25b2ccc4e39936efd0385ee264

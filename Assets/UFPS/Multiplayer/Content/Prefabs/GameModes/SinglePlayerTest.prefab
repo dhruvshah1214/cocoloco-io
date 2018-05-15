@@ -40,7 +40,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2555fe36e60ad346af91f1b4d64b622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LocalPlayerPrefab: {fileID: 100176, guid: ec0ff4a666bd25f4a834a02ef22587a6, type: 2}
+  LocalPlayerPrefab: {fileID: 1640259086088404, guid: 71ed929f0b8324587b68f6e7c27ddb03,
+    type: 2}
   m_SpawnMode: 1
 --- !u!1001 &100100000
 Prefab:

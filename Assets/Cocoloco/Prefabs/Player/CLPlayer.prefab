@@ -4077,7 +4077,7 @@ MonoBehaviour:
     IfOutOfAmmo: 0
     IfNotPresent: 0
     FirstTimeOnly: 0
-    helpbox: 67
+    helpbox: 78
   m_Misc:
     ResetOnRespawn: 1
 --- !u!114 &11400054

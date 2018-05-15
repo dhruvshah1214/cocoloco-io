@@ -305,7 +305,7 @@ MonoBehaviour:
   GameLength: 0
   PauseLength: 20
   CurrentLevel: CocolocoMobile
-  currentLevelHelp: 62
+  currentLevelHelp: 73
 --- !u!114 &535736780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -381,7 +381,7 @@ MonoBehaviour:
     Remote:
     - ComponentName: CLPlayerStats
       TransformName: 
-    addComponentsHelp: 78
+    addComponentsHelp: 89
 --- !u!114 &535736784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -625,7 +625,7 @@ MonoBehaviour:
   GameLength: 0
   PauseLength: 20
   CurrentLevel: Cocoloco
-  currentLevelHelp: 62
+  currentLevelHelp: 73
 --- !u!82 &1254623277
 AudioSource:
   m_ObjectHideFlags: 0
@@ -777,7 +777,7 @@ MonoBehaviour:
     Remote:
     - ComponentName: CLPlayerStats
       TransformName: 
-    addComponentsHelp: 78
+    addComponentsHelp: 89
 --- !u!114 &1254623283
 MonoBehaviour:
   m_ObjectHideFlags: 0

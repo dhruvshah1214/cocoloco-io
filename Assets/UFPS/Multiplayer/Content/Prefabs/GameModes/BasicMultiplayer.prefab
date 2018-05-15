@@ -100,7 +100,7 @@ MonoBehaviour:
       ParentName: 
     - Prefab: {fileID: 100000, guid: 2ee56cc10b921a247bed60dd632d7a8e, type: 2}
       ParentName: Head
-    addPrefabsHelp: 111
+    addPrefabsHelp: 89
   m_AddComponents:
     Local:
     - ComponentName: vp_MPPlayerStats
@@ -108,7 +108,7 @@ MonoBehaviour:
     Remote:
     - ComponentName: vp_MPPlayerStats
       TransformName: 
-    addComponentsHelp: 111
+    addComponentsHelp: 89
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -123,7 +123,7 @@ MonoBehaviour:
   GameLength: 0
   PauseLength: 0
   CurrentLevel: UFPSMP_TestMap
-  currentLevelHelp: 95
+  currentLevelHelp: 73
 --- !u!114 &11400010
 MonoBehaviour:
   m_ObjectHideFlags: 1

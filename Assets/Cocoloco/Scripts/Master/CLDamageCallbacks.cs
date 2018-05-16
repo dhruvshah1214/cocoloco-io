@@ -1,9 +1,7 @@
 ﻿/////////////////////////////////////////////////////////////////////////////////
 //
 //	vp_DMDamageCallbacks.cs
-//	© Opsive. All Rights Reserved.
-//	https://twitter.com/Opsive
-//	http://www.opsive.com
+//	Dhruv Shah
 //
 //	description:	an example of how to extend the base (vp_MPDamageCallbacks)
 //					class with additional callback logic for 'Damage' events. here,

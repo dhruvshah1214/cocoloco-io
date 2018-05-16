@@ -275,10 +275,11 @@ public class vp_FPInput : vp_Component
 		if (!vp_Utility.LockCursor)
 			return;
 
-		if (vp_Input.GetButton("Attack")
-			  || vp_Input.GetAxisRaw("RightTrigger") > 0.5f		// fire using the right gamepad trigger
-			)
-			FPPlayer.Attack.TryStart();
+		if (vp_Input.GetButton ("Attack")
+			|| vp_Input.GetAxisRaw ("RightTrigger") > 0.5f)		/* fire using the right gamepad trigger) */ {
+			FPPlayer.Attack.TryStart ();
+			Debug.Log ("PRESSED ATTACK");
+		}
 		else
 			FPPlayer.Attack.TryStop();
 

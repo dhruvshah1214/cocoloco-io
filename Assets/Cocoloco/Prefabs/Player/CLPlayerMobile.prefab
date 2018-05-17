@@ -860,12 +860,13 @@ GameObject:
   - component: {fileID: 114080612245627616}
   - component: {fileID: 114183241558778586}
   - component: {fileID: 114108596597388004}
-  - component: {fileID: 114485053074818674}
   - component: {fileID: 114806663514989172}
   - component: {fileID: 114643000726995226}
   - component: {fileID: 114098782616595900}
   - component: {fileID: 114418745428929292}
   - component: {fileID: 114855459902563464}
+  - component: {fileID: 114060212988998738}
+  - component: {fileID: 114748008068558822}
   m_Layer: 30
   m_Name: CLPlayerMobile
   m_TagString: Player
@@ -3965,17 +3966,6 @@ MonoBehaviour:
   FallImpactEvent: {fileID: 11400000, guid: 84d80447291911e46b7ff27e4a8902d4, type: 2}
   FallImpactThreshold: 0.15
   m_MuteLocalFootsteps: 0
---- !u!114 &114485053074818674
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1640259086088404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3715acfb9dab72044a39a93d8fa38b7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114487846279823044
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4440,6 +4430,17 @@ MonoBehaviour:
   SetWeaponAttackSleepDuration: 0.3
   ReloadAttackSleepDuration: 0.3
   ReloadAutomatically: 0
+--- !u!114 &114748008068558822
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1640259086088404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3715acfb9dab72044a39a93d8fa38b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114785768728868822
 MonoBehaviour:
   m_ObjectHideFlags: 1

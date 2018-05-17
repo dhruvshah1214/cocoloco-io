@@ -85,7 +85,6 @@ public class vp_FPInputMobile : vp_FPInput
 
 		if (vp_Input.GetButtonAny ("Attack")) {
 			FPPlayer.Fire.Try ();
-			Debug.Log ("FIRE");
 		}
 			
 	}

@@ -468,16 +468,34 @@ GameObject:
   m_Component:
   - component: {fileID: 552670585}
   - component: {fileID: 552670584}
-  - component: {fileID: 552670583}
   - component: {fileID: 552670582}
   - component: {fileID: 552670581}
+  - component: {fileID: 552670580}
   m_Layer: 0
-  m_Name: DemoGUI
+  m_Name: LoginGUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &552670580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 552670579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fda2891d8da24aa5869460c1e59bcfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Splash: {fileID: 0}
+  RequireSetName: 0
+  BigFont: {fileID: 12800000, guid: 4721e7a71e3620b4dac13fdc767ee80a, type: 3}
+  SmallFont: {fileID: 12800000, guid: 4721e7a71e3620b4dac13fdc767ee80a, type: 3}
+  MessageFont: {fileID: 12800000, guid: 4721e7a71e3620b4dac13fdc767ee80a, type: 3}
+  BgTexture: {fileID: 0}
+  DontDestroyOnLoad: 1
 --- !u!114 &552670581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -507,27 +525,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12a809589c91ff94db48c48f48b66415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  helpBox: 139
+  helpBox: 117
   ProductName: Cocoloco.io
---- !u!114 &552670583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400006, guid: 463c8626f1e8cfd4b88e6022e888cb68,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 552670579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f21403533c4ed864da97e7dfda15065e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Splash: {fileID: 0}
-  RequireSetName: 0
-  BigFont: {fileID: 12800000, guid: 4721e7a71e3620b4dac13fdc767ee80a, type: 3}
-  SmallFont: {fileID: 12800000, guid: 4721e7a71e3620b4dac13fdc767ee80a, type: 3}
-  MessageFont: {fileID: 12800000, guid: 4721e7a71e3620b4dac13fdc767ee80a, type: 3}
-  BgTexture: {fileID: 0}
-  DontDestroyOnLoad: 1
 --- !u!114 &552670584
 MonoBehaviour:
   m_ObjectHideFlags: 0

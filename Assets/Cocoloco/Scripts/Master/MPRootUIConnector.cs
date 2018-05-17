@@ -41,18 +41,7 @@ public class MPRootUIConnector : MonoBehaviour {
 		}
 	}
 
-	private GameObject GetLocalPlayer()
-	{
-		GameObject[] objects = GameObject.FindGameObjectsWithTag ("Player");
-		foreach (GameObject obj in objects)
-		{
-			if (obj.layer.Equals(LayerMask.NameToLayer("LocalPlayer"))) // localplayer
-			{
-				return obj;
-			}
-		}
-		return null;
-	}
+
 
 	private void doRefresh() {
 		if (isRefreshed.Equals(true)) {
@@ -76,5 +65,18 @@ public class MPRootUIConnector : MonoBehaviour {
 
 		Debug.Log ("DONE");
 		isRefreshed = true;
+	}
+
+	public static GameObject GetLocalPlayer()
+	{
+		GameObject[] objects = GameObject.FindGameObjectsWithTag ("Player");
+		foreach (GameObject obj in objects)
+		{
+			if (obj.layer.Equals(LayerMask.NameToLayer("LocalPlayer"))) // localplayer
+			{
+				return obj;
+			}
+		}
+		return null;
 	}
 }

@@ -3335,12 +3335,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e636d608c8ee6846bb2095d0cb17973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DropOnDeath: 1
+  DropOnDeath: 3
   SpawnHeight: 1.25
-  SpawnDistance: 1
-  TossDistance: 1
-  MaxDrops: 100
-  ItemLifeTime: 0
+  SpawnDistance: 2
+  TossDistance: 4
+  MaxDrops: 50
+  ItemLifeTime: 10
   DisableBob: 0
   DisableSpin: 0
   TossSounds: []

@@ -851,7 +851,6 @@ GameObject:
   - component: {fileID: 114731834090784970}
   - component: {fileID: 114595868443696928}
   - component: {fileID: 82686135444825406}
-  - component: {fileID: 114702985234303684}
   - component: {fileID: 114501589431097836}
   - component: {fileID: 81255806126696268}
   - component: {fileID: 114026767070325766}
@@ -866,6 +865,7 @@ GameObject:
   - component: {fileID: 114098782616595900}
   - component: {fileID: 114418745428929292}
   - component: {fileID: 114855459902563464}
+  - component: {fileID: 114060212988998738}
   m_Layer: 30
   m_Name: CLPlayerMobile
   m_TagString: Player
@@ -3304,6 +3304,67 @@ MonoBehaviour:
   SoundReload: {fileID: 8300000, guid: b1c95453033c9f040b2fd982c436e4fe, type: 3}
   ReloadDuration: 1
   AnimationReload: {fileID: 0}
+--- !u!114 &114060212988998738
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1640259086088404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77c37535836b66458643f30659b4781, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ItemRecords:
+    itemList: 108
+    helpbox: 111
+  m_ItemCaps:
+    itemList: 198
+    helpbox: 89
+  m_SpaceLimit:
+    spaceLimit: 77
+    helpbox: 133
+  ItemInstances: []
+  m_ItemCapInstances:
+  - Type: {fileID: 11400000, guid: 62425c407435d478a98d7809208361bf, type: 2}
+    Cap: 100
+  - Type: {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
+    Cap: 5
+  - Type: {fileID: 11400000, guid: c8e997ef43b744c33ac9d2e93227e88f, type: 2}
+    Cap: 1
+  - Type: {fileID: 11400000, guid: 5556834425acf46909c6b951228b75db, type: 2}
+    Cap: 1
+  - Type: {fileID: 11400000, guid: 85b6d06bc0421402fb7ea55bef4cfd46, type: 2}
+    Cap: 1
+  m_UnitBankInstances:
+  - Type: {fileID: 11400000, guid: 3a65c1045a843bc4ba9680febc091edf, type: 2}
+    ID: 0
+    UnitType: {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
+    Count: 1
+    m_Capacity: 1
+    m_Inventory: {fileID: 114060212988998738}
+  m_InternalUnitBanks:
+  - Type: {fileID: 0}
+    ID: 0
+    UnitType: {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
+    Count: 5
+    m_Capacity: 5
+    m_Inventory: {fileID: 114060212988998738}
+  CapsEnabled: 1
+  SpaceEnabled: 0
+  SpaceMode: 0
+  AllowOnlyListed: 1
+  m_TotalSpace: 100
+  m_UsedSpace: 0
+  m_AutoWield:
+    Always: 0
+    IfUnarmed: 1
+    IfOutOfAmmo: 0
+    IfNotPresent: 0
+    FirstTimeOnly: 0
+    helpbox: 0
+  m_Misc:
+    ResetOnRespawn: 1
 --- !u!114 &114080612245627616
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4339,87 +4400,6 @@ MonoBehaviour:
   MouseCursorZones: []
   MouseCursorForced: 0
   MouseCursorBlocksMouseLook: 0
---- !u!114 &114702985234303684
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1640259086088404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f51d02c672daf34b8feff75a9250455, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ItemRecords:
-    itemList: 171
-    helpbox: 111
-  m_ItemCaps:
-    itemList: 219
-    helpbox: 89
-  m_SpaceLimit:
-    spaceLimit: 77
-    helpbox: 133
-  ItemInstances: []
-  m_ItemCapInstances:
-  - Type: {fileID: 11400000, guid: 62425c407435d478a98d7809208361bf, type: 2}
-    Cap: 100
-  - Type: {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
-    Cap: 100
-  - Type: {fileID: 11400000, guid: 3a65c1045a843bc4ba9680febc091edf, type: 2}
-    Cap: 1
-  - Type: {fileID: 11400000, guid: 5556834425acf46909c6b951228b75db, type: 2}
-    Cap: 1
-  - Type: {fileID: 11400000, guid: c8e997ef43b744c33ac9d2e93227e88f, type: 2}
-    Cap: 1
-  - Type: {fileID: 11400000, guid: 85b6d06bc0421402fb7ea55bef4cfd46, type: 2}
-    Cap: 1
-  m_UnitBankInstances:
-  - Type: {fileID: 11400000, guid: 3a65c1045a843bc4ba9680febc091edf, type: 2}
-    ID: 0
-    UnitType: {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
-    Count: 1
-    m_Capacity: 1
-    m_Inventory: {fileID: 114702985234303684}
-  - Type: {fileID: 11400000, guid: 5556834425acf46909c6b951228b75db, type: 2}
-    ID: 0
-    UnitType: {fileID: 11400000, guid: 62425c407435d478a98d7809208361bf, type: 2}
-    Count: 12
-    m_Capacity: 12
-    m_Inventory: {fileID: 114702985234303684}
-  - Type: {fileID: 11400000, guid: c8e997ef43b744c33ac9d2e93227e88f, type: 2}
-    ID: 0
-    UnitType: {fileID: 11400000, guid: 62425c407435d478a98d7809208361bf, type: 2}
-    Count: 24
-    m_Capacity: 24
-    m_Inventory: {fileID: 114702985234303684}
-  - Type: {fileID: 11400000, guid: 85b6d06bc0421402fb7ea55bef4cfd46, type: 2}
-    ID: 0
-    UnitType: {fileID: 11400000, guid: 62425c407435d478a98d7809208361bf, type: 2}
-    Count: 6
-    m_Capacity: 6
-    m_Inventory: {fileID: 114702985234303684}
-  m_InternalUnitBanks:
-  - Type: {fileID: 0}
-    ID: 0
-    UnitType: {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
-    Count: 10
-    m_Capacity: -1
-    m_Inventory: {fileID: 114702985234303684}
-  CapsEnabled: 0
-  SpaceEnabled: 0
-  SpaceMode: 0
-  AllowOnlyListed: 0
-  m_TotalSpace: 100
-  m_UsedSpace: 0
-  m_AutoWield:
-    Always: 0
-    IfUnarmed: 1
-    IfOutOfAmmo: 0
-    IfNotPresent: 0
-    FirstTimeOnly: 0
-    helpbox: 78
-  m_Misc:
-    ResetOnRespawn: 1
 --- !u!114 &114731834090784970
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4530,12 +4510,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e636d608c8ee6846bb2095d0cb17973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DropOnDeath: 1
+  DropOnDeath: 3
   SpawnHeight: 1.25
-  SpawnDistance: 1
-  TossDistance: 1
-  MaxDrops: 100
-  ItemLifeTime: 0
+  SpawnDistance: 2
+  TossDistance: 4
+  MaxDrops: 50
+  ItemLifeTime: 10
   DisableBob: 0
   DisableSpin: 0
   TossSounds: []

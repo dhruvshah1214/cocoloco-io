@@ -14,8 +14,8 @@ MonoBehaviour:
   DisplayName: MobilePlayer
   Description: 
   Icon: {fileID: 0}
-  LocalPrefab: {fileID: 1640259086088404, guid: 71ed929f0b8324587b68f6e7c27ddb03,
+  LocalPrefab: {fileID: 1692517239801952, guid: 10f17e3ec66c74f6d99e6221d70673b7,
     type: 2}
-  RemotePrefab: {fileID: 1162287364011162, guid: b308c708f0e7647af9a4d68f2e6fd213,
+  RemotePrefab: {fileID: 1425456809964632, guid: d25e2dc1b18e4440bbb0c098412fd622,
     type: 2}
-  mpPlayerTypeHelp: 84
+  mpPlayerTypeHelp: 73

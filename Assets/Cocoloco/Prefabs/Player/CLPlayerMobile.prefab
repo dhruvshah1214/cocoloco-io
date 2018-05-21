@@ -3358,13 +3358,13 @@ MonoBehaviour:
   m_UsedSpace: 0
   m_AutoWield:
     Always: 0
-    IfUnarmed: 1
+    IfUnarmed: 0
     IfOutOfAmmo: 0
     IfNotPresent: 0
     FirstTimeOnly: 0
     helpbox: 0
   m_Misc:
-    ResetOnRespawn: 1
+    ResetOnRespawn: 0
 --- !u!114 &114080612245627616
 MonoBehaviour:
   m_ObjectHideFlags: 1

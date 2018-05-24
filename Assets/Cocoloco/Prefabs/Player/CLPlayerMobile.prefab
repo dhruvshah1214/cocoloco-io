@@ -3317,7 +3317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ItemRecords:
     itemList: 108
-    helpbox: 111
+    helpbox: 144
   m_ItemCaps:
     itemList: 198
     helpbox: 89

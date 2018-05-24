@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CocolocoWeaponManager : MonoBehaviour {
 	private GameObject localPlayer = null;
-	private vp_FPInventory m_Inventory = null;
+	private vp_PlayerInventory m_Inventory = null;
 
 	bool done = false;
 
@@ -21,7 +21,7 @@ public class CocolocoWeaponManager : MonoBehaviour {
 		localPlayer = MPRootUIConnector.GetLocalPlayer ();
 
 		if (localPlayer != null) {
-			m_Inventory = localPlayer.GetComponent<vp_FPInventory> ();
+			m_Inventory = localPlayer.GetComponent<vp_PlayerInventory> ();
 			int weaponNumber = CocolocoMainMenuGUI.m_WeaponNumber;
 			string weaponName = "CL" + CocolocoMainMenuGUI.m_Weapons [weaponNumber];
 			done = addWeaponToInventory (weaponName);

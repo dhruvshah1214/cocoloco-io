@@ -3630,10 +3630,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ItemRecords:
     itemList: 171
-    helpbox: 111
+    helpbox: 144
   m_ItemCaps:
     itemList: 219
-    helpbox: 89
+    helpbox: 111
   m_SpaceLimit:
     spaceLimit: 77
     helpbox: 133

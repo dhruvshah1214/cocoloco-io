@@ -596,7 +596,6 @@ GameObject:
   - component: {fileID: 143020306970994186}
   - component: {fileID: 114194514939760648}
   - component: {fileID: 114475845209278630}
-  - component: {fileID: 114059408390467566}
   - component: {fileID: 82557163690182006}
   - component: {fileID: 114130807479950164}
   - component: {fileID: 81327497057947280}
@@ -611,8 +610,8 @@ GameObject:
   - component: {fileID: 114420289162818114}
   - component: {fileID: 114254963938585970}
   - component: {fileID: 114419268305027832}
-  - component: {fileID: 114755158991419830}
   - component: {fileID: 114990013099980926}
+  - component: {fileID: 114483748907162658}
   m_Layer: 30
   m_Name: CLPlayerMobileApple
   m_TagString: Player
@@ -2907,17 +2906,6 @@ MonoBehaviour:
   PositionExitOffset: {x: 0, y: -1, z: 0}
   RotationExitOffset: {x: 40, y: 0, z: 0}
   DoSpringsInLateUpdate: 0
---- !u!114 &114059408390467566
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1692517239801952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c41202c9e34c50488097d283e5dd8eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114101944446705546
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3467,7 +3455,7 @@ MonoBehaviour:
   SurfaceType: {fileID: 11400000, guid: d5038622b1b2a6f43874b4c45ddadc71, type: 2}
   AllowDecals: 0
   SurfaceID: 0
-  surfaceTypeHelp: 128
+  surfaceTypeHelp: 172
 --- !u!114 &114475845209278630
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3488,6 +3476,69 @@ MonoBehaviour:
   SetWeaponAttackSleepDuration: 0.3
   ReloadAttackSleepDuration: 0.3
   ReloadAutomatically: 0
+--- !u!114 &114483748907162658
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1692517239801952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f51d02c672daf34b8feff75a9250455, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ItemRecords:
+    itemList: 108
+    helpbox: 144
+  m_ItemCaps:
+    itemList: 219
+    helpbox: 111
+  m_SpaceLimit:
+    spaceLimit: 77
+    helpbox: 133
+  ItemInstances: []
+  m_ItemCapInstances:
+  - Type: {fileID: 11400000, guid: 3a65c1045a843bc4ba9680febc091edf, type: 2}
+    Cap: 1
+  - Type: {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
+    Cap: 5
+  - Type: {fileID: 11400000, guid: 62425c407435d478a98d7809208361bf, type: 2}
+    Cap: 100
+  - Type: {fileID: 11400000, guid: c8e997ef43b744c33ac9d2e93227e88f, type: 2}
+    Cap: 1
+  - Type: {fileID: 11400000, guid: 85b6d06bc0421402fb7ea55bef4cfd46, type: 2}
+    Cap: 1
+  - Type: {fileID: 11400000, guid: 5556834425acf46909c6b951228b75db, type: 2}
+    Cap: 1
+  m_UnitBankInstances:
+  - Type: {fileID: 11400000, guid: 3a65c1045a843bc4ba9680febc091edf, type: 2}
+    ID: 0
+    UnitType: {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
+    Count: 1
+    m_Capacity: 1
+    m_Inventory: {fileID: 114483748907162658}
+  m_InternalUnitBanks:
+  - Type: {fileID: 0}
+    ID: 0
+    UnitType: {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
+    Count: 5
+    m_Capacity: 5
+    m_Inventory: {fileID: 114483748907162658}
+  CapsEnabled: 1
+  SpaceEnabled: 0
+  SpaceMode: 0
+  AllowOnlyListed: 0
+  m_TotalSpace: 100
+  m_UsedSpace: 0
+  m_AutoWield:
+    Always: 0
+    IfUnarmed: 0
+    IfOutOfAmmo: 0
+    IfNotPresent: 0
+    FirstTimeOnly: 0
+    helpbox: 78
+  m_Misc:
+    ResetOnRespawn: 1
 --- !u!114 &114507470065695312
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3703,7 +3754,7 @@ MonoBehaviour:
   SpawnOnAwake: 0
   SpawnSound: {fileID: 8300000, guid: c6ffb5ccbd00a114494143e33e747a05, type: 3}
   SpawnFXPrefabs: []
-  helpbox: 111
+  helpbox: 155
 --- !u!114 &114744951375008554
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3816,67 +3867,6 @@ MonoBehaviour:
   Type: {fileID: 11400000, guid: c8e997ef43b744c33ac9d2e93227e88f, type: 2}
   ID: 0
   weaponHelp: 210
---- !u!114 &114755158991419830
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1692517239801952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b77c37535836b66458643f30659b4781, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ItemRecords:
-    itemList: 108
-    helpbox: 111
-  m_ItemCaps:
-    itemList: 198
-    helpbox: 89
-  m_SpaceLimit:
-    spaceLimit: 77
-    helpbox: 133
-  ItemInstances: []
-  m_ItemCapInstances:
-  - Type: {fileID: 11400000, guid: 62425c407435d478a98d7809208361bf, type: 2}
-    Cap: 100
-  - Type: {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
-    Cap: 5
-  - Type: {fileID: 11400000, guid: c8e997ef43b744c33ac9d2e93227e88f, type: 2}
-    Cap: 1
-  - Type: {fileID: 11400000, guid: 5556834425acf46909c6b951228b75db, type: 2}
-    Cap: 1
-  - Type: {fileID: 11400000, guid: 85b6d06bc0421402fb7ea55bef4cfd46, type: 2}
-    Cap: 1
-  m_UnitBankInstances:
-  - Type: {fileID: 11400000, guid: 3a65c1045a843bc4ba9680febc091edf, type: 2}
-    ID: 0
-    UnitType: {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
-    Count: 1
-    m_Capacity: 1
-    m_Inventory: {fileID: 114755158991419830}
-  m_InternalUnitBanks:
-  - Type: {fileID: 0}
-    ID: 0
-    UnitType: {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
-    Count: 5
-    m_Capacity: 5
-    m_Inventory: {fileID: 114755158991419830}
-  CapsEnabled: 1
-  SpaceEnabled: 0
-  SpaceMode: 0
-  AllowOnlyListed: 1
-  m_TotalSpace: 100
-  m_UsedSpace: 0
-  m_AutoWield:
-    Always: 0
-    IfUnarmed: 0
-    IfOutOfAmmo: 0
-    IfNotPresent: 0
-    FirstTimeOnly: 0
-    helpbox: 0
-  m_Misc:
-    ResetOnRespawn: 0
 --- !u!114 &114782295722429158
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4092,7 +4082,7 @@ MonoBehaviour:
   DisableSpin: 0
   TossSounds: []
   ExtraPickups: []
-  surfaceTypeHelp: 106
+  surfaceTypeHelp: 139
 --- !u!114 &114885116806982150
 MonoBehaviour:
   m_ObjectHideFlags: 1

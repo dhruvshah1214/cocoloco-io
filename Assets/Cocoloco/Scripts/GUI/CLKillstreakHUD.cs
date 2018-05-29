@@ -1,13 +1,8 @@
 ﻿/////////////////////////////////////////////////////////////////////////////////
 //
-//	vp_DMDemoScoreBoard.cs
-//	© Opsive. All Rights Reserved.
-//	https://twitter.com/Opsive
-//	http://www.opsive.com
+//	Killstreak HUD
 //
-//	description:	a basic, classic team deathmatch scoreboard. can be used for
-//					debugging purposes (you can enable any player stat in the list).
-//					provided for demo purposes only
+//	description:	Killstreak board. Shows on the right side of the screen (GUI code)
 //
 /////////////////////////////////////////////////////////////////////////////////
 

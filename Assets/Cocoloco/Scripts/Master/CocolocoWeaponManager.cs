@@ -34,7 +34,13 @@ public class CocolocoWeaponManager : MonoBehaviour {
 		for (int v = 0; v < m_Inventory.m_ItemCapInstances.Count; v++) {
 
 			if (m_Inventory.m_ItemCapInstances [v].Type.name == weaponName)
-				return m_Inventory.TryGiveItem (m_Inventory.m_ItemCapInstances [v].Type, 0);
+			if (localPlayer.GetComponent<vp_FPPlayerEventHandler>().AddItem.Try(new object[] { m_Inventory.m_ItemCapInstances [v].Type })) {
+				localPlayer.GetComponent<vp_FPPlayerEventHandler> ().SetWeapon.TryStart (v + 1);
+
+				return true;
+			} else {
+				return false;
+			}
 		}
 		Debug.LogError ("Couldn't find requested weapon to add to inventory");
 		return false;

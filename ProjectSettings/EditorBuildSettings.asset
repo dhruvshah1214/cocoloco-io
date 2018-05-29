@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Cocoloco/Scenes/Menus/CocolocoMenu.unity
     guid: bc47807a46b354e24a0004ec5a4736c9
   - enabled: 1
-    path: Assets/Cocoloco/Scenes/Levels/CocolocoMobile.unity
+    path: Assets/Cocoloco/Scenes/Levels/CocolocoFinal.unity
     guid: 8f10f86a1c3e54f6da435a1d97d5ce9a
   - enabled: 0
     path: Assets/Cocoloco/Scenes/Levels/Cocoloco.unity

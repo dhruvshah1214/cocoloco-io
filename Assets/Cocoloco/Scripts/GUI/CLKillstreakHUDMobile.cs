@@ -1,15 +1,11 @@
 ﻿/////////////////////////////////////////////////////////////////////////////////
 //
-//	vp_DMDemoScoreBoard.cs
-//	© Opsive. All Rights Reserved.
-//	https://twitter.com/Opsive
-//	http://www.opsive.com
+//	Killstreak HUD Mobile
 //
-//	description:	a basic, classic team deathmatch scoreboard. can be used for
-//					debugging purposes (you can enable any player stat in the list).
-//					provided for demo purposes only
+//	description:	Killstreak board. Shows on the right side of the screen (GUI code, mobile optimized)
 //
 /////////////////////////////////////////////////////////////////////////////////
+
 
 using UnityEngine;
 using System.Collections;
@@ -134,7 +130,7 @@ public class CLKillstreakHUDMobile : Photon.MonoBehaviour
 
 	
 	/// <summary>
-	/// 
+	/// builtin update method
 	/// </summary>
 	void Update()
 	{
@@ -145,7 +141,7 @@ public class CLKillstreakHUDMobile : Photon.MonoBehaviour
 
 
 	/// <summary>
-	/// 
+	/// UNITY MEHTOD
 	/// </summary>
 	void UpdateInput()
 	{
@@ -156,7 +152,7 @@ public class CLKillstreakHUDMobile : Photon.MonoBehaviour
 
 
 	/// <summary>
-	/// 
+	/// utility method for drawing
 	/// </summary>
 	protected float GetColumnWidth(float tableWidth)
 	{
@@ -165,7 +161,7 @@ public class CLKillstreakHUDMobile : Photon.MonoBehaviour
 
 
 	/// <summary>
-	/// 
+	/// draws label
 	/// </summary>
 	void DrawLabel(string text, Vector2 position, Vector2 scale, GUIStyle textStyle, Color textColor, Color bgColor, bool dropShadow = false)
 	{
@@ -208,6 +204,7 @@ public class CLKillstreakHUDMobile : Photon.MonoBehaviour
 
 
 	/// <summary>
+	/// draws single label
 	/// 
 	/// </summary>
 	void DrawLabel(string text, Vector2 pos)
@@ -217,7 +214,7 @@ public class CLKillstreakHUDMobile : Photon.MonoBehaviour
 
 
 	/// <summary>
-	/// 
+	/// for teams, NOT USED
 	/// </summary>
 	void DrawTeam(Vector2 position, Vector2 scale, vp_MPTeam team)
 	{
@@ -267,6 +264,7 @@ public class CLKillstreakHUDMobile : Photon.MonoBehaviour
 
 
 	/// <summary>
+	/// draw title row
 	/// 
 	/// </summary>
 	void DrawTopRow(Vector2 position, Vector2 scale)
@@ -289,7 +287,7 @@ public class CLKillstreakHUDMobile : Photon.MonoBehaviour
 
 
 	/// <summary>
-	/// 
+	/// draw row for player
 	/// </summary>
 	void DrawPlayerRow(vp_MPNetworkPlayer p, Vector2 position, Vector2 scale)
 	{
@@ -325,7 +323,7 @@ public class CLKillstreakHUDMobile : Photon.MonoBehaviour
 	
 	
 	/// <summary>
-	/// 
+	/// draw label for a certain statistic
 	/// </summary>
 	void DrawStatLabel(string statName, Vector2 position, Vector2 scale)
 	{

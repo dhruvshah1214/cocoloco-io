@@ -3556,7 +3556,7 @@ MonoBehaviour:
   CameraFreezeDelay: 2.5
   VelocityMultiplier: 30
   HeadBone: {fileID: 100138}
-  helpbox: 62
+  helpbox: 51
 --- !u!114 &11400032
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4021,18 +4021,18 @@ MonoBehaviour:
     helpbox: 133
   ItemInstances: []
   m_ItemCapInstances:
-  - Type: {fileID: 11400000, guid: 62425c407435d478a98d7809208361bf, type: 2}
-    Cap: 100
-  - Type: {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
-    Cap: 100
-  - Type: {fileID: 11400000, guid: 3a65c1045a843bc4ba9680febc091edf, type: 2}
-    Cap: 1
   - Type: {fileID: 11400000, guid: 5556834425acf46909c6b951228b75db, type: 2}
     Cap: 1
   - Type: {fileID: 11400000, guid: c8e997ef43b744c33ac9d2e93227e88f, type: 2}
     Cap: 1
   - Type: {fileID: 11400000, guid: 85b6d06bc0421402fb7ea55bef4cfd46, type: 2}
     Cap: 1
+  - Type: {fileID: 11400000, guid: 3a65c1045a843bc4ba9680febc091edf, type: 2}
+    Cap: 1
+  - Type: {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
+    Cap: 10
+  - Type: {fileID: 11400000, guid: 62425c407435d478a98d7809208361bf, type: 2}
+    Cap: 100
   m_UnitBankInstances:
   - Type: {fileID: 11400000, guid: 3a65c1045a843bc4ba9680febc091edf, type: 2}
     ID: 0
@@ -4040,17 +4040,17 @@ MonoBehaviour:
     Count: 1
     m_Capacity: 1
     m_Inventory: {fileID: 11400052}
-  - Type: {fileID: 11400000, guid: 5556834425acf46909c6b951228b75db, type: 2}
-    ID: 0
-    UnitType: {fileID: 11400000, guid: 62425c407435d478a98d7809208361bf, type: 2}
-    Count: 12
-    m_Capacity: 12
-    m_Inventory: {fileID: 11400052}
   - Type: {fileID: 11400000, guid: c8e997ef43b744c33ac9d2e93227e88f, type: 2}
     ID: 0
     UnitType: {fileID: 11400000, guid: 62425c407435d478a98d7809208361bf, type: 2}
     Count: 24
     m_Capacity: 24
+    m_Inventory: {fileID: 11400052}
+  - Type: {fileID: 11400000, guid: 5556834425acf46909c6b951228b75db, type: 2}
+    ID: 0
+    UnitType: {fileID: 11400000, guid: 62425c407435d478a98d7809208361bf, type: 2}
+    Count: 12
+    m_Capacity: 12
     m_Inventory: {fileID: 11400052}
   - Type: {fileID: 11400000, guid: 85b6d06bc0421402fb7ea55bef4cfd46, type: 2}
     ID: 0
@@ -4063,9 +4063,9 @@ MonoBehaviour:
     ID: 0
     UnitType: {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
     Count: 10
-    m_Capacity: -1
+    m_Capacity: 10
     m_Inventory: {fileID: 11400052}
-  CapsEnabled: 0
+  CapsEnabled: 1
   SpaceEnabled: 0
   SpaceMode: 0
   AllowOnlyListed: 0
@@ -4073,7 +4073,7 @@ MonoBehaviour:
   m_UsedSpace: 0
   m_AutoWield:
     Always: 0
-    IfUnarmed: 1
+    IfUnarmed: 0
     IfOutOfAmmo: 0
     IfNotPresent: 0
     FirstTimeOnly: 0
@@ -4544,7 +4544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e636d608c8ee6846bb2095d0cb17973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DropOnDeath: 1
+  DropOnDeath: 3
   SpawnHeight: 1.25
   SpawnDistance: 1
   TossDistance: 1

@@ -3255,11 +3255,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ItemRecords:
-    itemList: 171
-    helpbox: 144
+    itemList: 108
+    helpbox: 111
   m_ItemCaps:
     itemList: 219
-    helpbox: 111
+    helpbox: 89
   m_SpaceLimit:
     spaceLimit: 77
     helpbox: 133
@@ -3283,24 +3283,6 @@ MonoBehaviour:
     UnitType: {fileID: 11400000, guid: 8b01507bf3c4f444b9b72c6b99331f84, type: 2}
     Count: 1
     m_Capacity: 1
-    m_Inventory: {fileID: 114340211841454850}
-  - Type: {fileID: 11400000, guid: 5556834425acf46909c6b951228b75db, type: 2}
-    ID: 0
-    UnitType: {fileID: 11400000, guid: 62425c407435d478a98d7809208361bf, type: 2}
-    Count: 12
-    m_Capacity: 12
-    m_Inventory: {fileID: 114340211841454850}
-  - Type: {fileID: 11400000, guid: c8e997ef43b744c33ac9d2e93227e88f, type: 2}
-    ID: 0
-    UnitType: {fileID: 11400000, guid: 62425c407435d478a98d7809208361bf, type: 2}
-    Count: 24
-    m_Capacity: 24
-    m_Inventory: {fileID: 114340211841454850}
-  - Type: {fileID: 11400000, guid: 85b6d06bc0421402fb7ea55bef4cfd46, type: 2}
-    ID: 0
-    UnitType: {fileID: 11400000, guid: 62425c407435d478a98d7809208361bf, type: 2}
-    Count: 6
-    m_Capacity: 6
     m_Inventory: {fileID: 114340211841454850}
   m_InternalUnitBanks:
   - Type: {fileID: 0}

@@ -211,8 +211,9 @@ public class vp_MPPlayerSpawner : Photon.MonoBehaviour
 		vp_MPNetworkPlayer.RefreshPlayers();
 
 		vp_MPNetworkPlayer player = vp_MPNetworkPlayer.Get(transform);
-		if (player != null)
-			player.photonView.RPC("ReceivePlayerRespawn", PhotonTargets.All, placement.Position, placement.Rotation);
+		if (player != null) {
+			player.photonView.RPC ("ReceivePlayerRespawn", PhotonTargets.All, placement.Position, placement.Rotation);
+		}
 		
 	}
 	
@@ -359,6 +360,8 @@ public class vp_MPPlayerSpawner : Photon.MonoBehaviour
 			if(l.WeaponHandler != null)
 				l.WeaponHandler.RefreshAllWeapons();
 
+			AddWeaponToPlayer (l);
+
 		}
 		else
 		{
@@ -394,7 +397,8 @@ public class vp_MPPlayerSpawner : Photon.MonoBehaviour
 			// show/hide 3rd person weapons on the spawned player
 			if (r.WeaponHandler != null)
 				r.WeaponHandler.RefreshAllWeapons();
-			
+
+			AddWeaponToPlayer (r);
 		}
 
 		vp_MPNetworkPlayer.RefreshPlayers();
@@ -557,6 +561,27 @@ public class vp_MPPlayerSpawner : Photon.MonoBehaviour
 		p.synchronization = ViewSynchronization.UnreliableOnChange;
 
 		PhotonNetwork.networkingPeer.RegisterPhotonView(p);
+	}
+
+
+	static void AddWeaponToPlayer(vp_MPNetworkPlayer player) {
+		// COCOLOCO.IO ADD: add the selected weapon to user's inventory & set weapon
+		vp_Inventory playerInventory = player.Stats.Inventory;
+		string weaponName = player.WeaponName;
+
+		for (int v = 0; v < playerInventory.m_ItemCapInstances.Count; v++) {
+			vp_ItemType itemType = playerInventory.m_ItemCapInstances [v].Type;
+
+			if (itemType.name.Equals (weaponName)) {
+				if (!player.Player.AddItem.Try (new object[] { itemType })) {
+					Debug.LogError ("COULDN'T ADD NETWORK ITEM VIA MASTER SCRIPT");
+				} else if (!player.Player.SetWeapon.TryStart (v + 1)) {
+					Debug.LogError ("COULDN'T SET NETWORK WEAPON VIA MASTER SCRIPT");
+				}
+				Debug.Log (player.gameObject.GetComponent<vp_PlayerInventory> ().GetItemCount (itemType));
+				break;
+			}
+		}
 	}
 
 

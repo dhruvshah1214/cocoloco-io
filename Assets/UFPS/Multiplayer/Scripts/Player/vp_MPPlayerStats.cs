@@ -181,6 +181,8 @@ public class vp_MPPlayerStats : MonoBehaviour
 		Getters.Add("Shots", delegate() { return NPlayer.Shots; });
 		Getters.Add("Position", delegate() { return NPlayer.Transform.position; });
 		Getters.Add("Rotation", delegate() { return NPlayer.Transform.root.rotation; });
+		Getters.Add("WeaponName", delegate() { return NPlayer.WeaponName; });
+
 		Getters.Add("Items", delegate()
 		{
 			//Debug.Log("--------> GET ITEMS OF " + Inventory.transform.root.gameObject.name);

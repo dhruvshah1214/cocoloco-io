@@ -101,7 +101,6 @@ public class vp_MPConnection : Photon.MonoBehaviour
 	{
 
 		UpdateConnectionState();
-
 		UpdatePing();
 
 		// SNIPPET: uncomment to test disconnect
@@ -187,6 +186,19 @@ public class vp_MPConnection : Photon.MonoBehaviour
 		// created, from then on it will be updated)
 		Hashtable playerCustomProps = new Hashtable();
 		playerCustomProps["Ping"] = ping;
+		PhotonNetwork.player.SetCustomProperties(playerCustomProps);
+
+	}
+
+
+	// COCOLOCO ADD
+	/// <summary>
+	/// Cocoloco: push the player's selected weapon to the Photon custom properties
+	/// </summary>
+	public virtual void PushPlayerWeapon()
+	{
+		Hashtable playerCustomProps = new Hashtable();
+		playerCustomProps["WeaponName"] = vp_Gameplay.WeaponName;
 		PhotonNetwork.player.SetCustomProperties(playerCustomProps);
 
 	}
@@ -340,6 +352,7 @@ public class vp_MPConnection : Photon.MonoBehaviour
 
 		// update name of this player in the cloud
 		PhotonNetwork.player.NickName = vp_Gameplay.PlayerName;
+		PushPlayerWeapon ();
 
 		//vp_MPDebug.Log("Total players using app: " + PhotonNetwork.countOfPlayers);
 		

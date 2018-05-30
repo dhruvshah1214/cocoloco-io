@@ -321,7 +321,7 @@ MonoBehaviour:
   RestoreInterval: 3
   RestoreDistance: 2
   PlayerHeight: 2
-  helpBox: 73
+  helpBox: 84
 --- !u!114 &535736781
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -42,8 +42,8 @@ public class CocolocoMainMenuGUI : Photon.MonoBehaviour
 	protected int m_Quality = 0;
 
 	protected string m_WeaponButtonText = "Weapon: Pistol";
-	public static int m_WeaponNumber = 0;
-	public static string[] m_Weapons = new string[] { "Pistol", "Machinegun", "Shotgun" };
+	public int m_WeaponNumber = 0;
+	public string[] m_Weapons = new string[] { "Pistol", "Machinegun", "Shotgun" };
 
 
 	// logic
@@ -202,6 +202,7 @@ public class CocolocoMainMenuGUI : Photon.MonoBehaviour
 				if (m_WeaponNumber > 2)
 					m_WeaponNumber = 0;
 				m_WeaponButtonText = "Weapon: " + m_Weapons[m_WeaponNumber];
+				vp_Gameplay.WeaponName = "CL" + m_Weapons[m_WeaponNumber];
 		});
 
 		m_Pos.x = startPos.x;

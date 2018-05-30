@@ -5020,10 +5020,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ItemRecords:
     itemList: 108
-    helpbox: 111
+    helpbox: 122
   m_ItemCaps:
     itemList: 177
-    helpbox: 89
+    helpbox: 100
   m_SpaceLimit:
     spaceLimit: 77
     helpbox: 133
@@ -5097,7 +5097,7 @@ MonoBehaviour:
   SpawnOnAwake: 0
   SpawnSound: {fileID: 8300000, guid: c6ffb5ccbd00a114494143e33e747a05, type: 3}
   SpawnFXPrefabs: []
-  helpbox: 111
+  helpbox: 133
 --- !u!114 &11400058
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -30,6 +30,20 @@ public abstract partial class vp_MPNetworkPlayer : Photon.MonoBehaviour
 	public int Shots = 0;                                   // amount of times the player has spawned projectiles. used for establishing deterministic
 															// random seeds that will be the same on all machines _without_ sending data over the network
 
+	// COCOLOCO ADD
+	public String WeaponName {
+		get
+		{
+			if (photonView == null)
+				return "";
+			if (photonView.owner == null)
+				return "";
+			if (photonView.owner.CustomProperties["WeaponName"] == null)
+				return "";
+			return (string)photonView.owner.CustomProperties["WeaponName"];
+		}
+	}
+
 	// returns the client's current roundtrip time to the photon server.
 	// NOTE: this is reported locally by every client in 'vp_MPConnection.UpdatePing'
 	public int Ping                                         

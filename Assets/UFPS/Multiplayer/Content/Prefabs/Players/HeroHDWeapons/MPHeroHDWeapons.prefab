@@ -4485,13 +4485,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ItemRecords:
     itemList: 108
-    helpbox: 144
+    helpbox: 122
   m_ItemCaps:
     itemList: 261
-    helpbox: 111
+    helpbox: 100
   m_SpaceLimit:
-    spaceLimit: 0
-    helpbox: 0
+    spaceLimit: 77
+    helpbox: 133
   ItemInstances:
   - Type: {fileID: 11400000, guid: c13a4e406486d1b42b767b6d56c7bdc5, type: 2}
     ID: 0
@@ -4532,7 +4532,7 @@ MonoBehaviour:
     IfOutOfAmmo: 1
     IfNotPresent: 1
     FirstTimeOnly: 1
-    helpbox: 89
+    helpbox: 78
   m_Misc:
     ResetOnRespawn: 1
 --- !u!114 &11400024
@@ -4627,7 +4627,7 @@ MonoBehaviour:
   SpawnOnAwake: 0
   SpawnSound: {fileID: 8300000, guid: c6ffb5ccbd00a114494143e33e747a05, type: 3}
   SpawnFXPrefabs: []
-  helpbox: 111
+  helpbox: 133
 --- !u!114 &11400034
 MonoBehaviour:
   m_ObjectHideFlags: 1

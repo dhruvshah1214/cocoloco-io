@@ -31,6 +31,8 @@ public class vp_Gameplay
 	public static bool IsMultiplayer = false;
 	protected static bool m_IsMaster = true;
 
+	public static string WeaponName = ""; // COCOLOCO ADD
+
 
 	/// <summary>
 	/// this property can be set by multiplayer scripts to assign master status

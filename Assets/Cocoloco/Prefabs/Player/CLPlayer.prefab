@@ -1308,12 +1308,12 @@ GameObject:
   - component: {fileID: 11400058}
   - component: {fileID: 11400056}
   - component: {fileID: 11400054}
-  - component: {fileID: 11400050}
   - component: {fileID: 11400048}
   - component: {fileID: 11400046}
   - component: {fileID: 11404780}
   - component: {fileID: 11432062}
   - component: {fileID: 11426446}
+  - component: {fileID: 114525963691263182}
   m_Layer: 30
   m_Name: CLPlayer
   m_TagString: Player
@@ -3972,33 +3972,6 @@ MonoBehaviour:
   ArrowAngleOffset: -135
   ArrowVisibleDuration: 1.5
   ArrowShakeDuration: 0.125
---- !u!114 &11400050
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98c79b8dd5ff9e84fb6c162a28f67f65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowHUD: 1
-  BigFont: {fileID: 12800000, guid: 4721e7a71e3620b4dac13fdc767ee80a, type: 3}
-  SmallFont: {fileID: 12800000, guid: 4721e7a71e3620b4dac13fdc767ee80a, type: 3}
-  MessageFont: {fileID: 12800000, guid: 4721e7a71e3620b4dac13fdc767ee80a, type: 3}
-  BigFontOffset: 69
-  SmallFontOffset: 56
-  Background: {fileID: 2800000, guid: 6da7eead4121c784b9eeca88107cd164, type: 3}
-  HealthIcon: {fileID: 2800000, guid: c98bf25622f106947b63a571142e7b92, type: 3}
-  HealthMultiplier: 10
-  HealthColor: {r: 1, g: 1, b: 1, a: 1}
-  HealthLowLevel: 2.5
-  HealthLowColor: {r: 0.75, g: 0, b: 0, a: 1}
-  HealthLowSound: {fileID: 8300000, guid: 4c6b73b258f31be49b68a524831cd910, type: 3}
-  HealthLowSoundInterval: 1
-  AmmoColor: {r: 1, g: 1, b: 1, a: 1}
-  AmmoLowColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &11400052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5453,6 +5426,38 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &114525963691263182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb6216b3b77d4a28aaf8513c3634b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowHUD: 1
+  BigFont: {fileID: 0}
+  SmallFont: {fileID: 0}
+  MessageFont: {fileID: 0}
+  BigFontOffset: 69
+  SmallFontOffset: 56
+  Background: {fileID: 0}
+  HealthIcon: {fileID: 0}
+  HealthMultiplier: 10
+  HealthColor: {r: 1, g: 1, b: 1, a: 1}
+  HealthLowLevel: 2.5
+  HealthLowColor: {r: 0.75, g: 0, b: 0, a: 1}
+  HealthLowSound: {fileID: 0}
+  HealthLowSoundInterval: 1
+  AmmoColor: {r: 1, g: 1, b: 1, a: 1}
+  AmmoLowColor: {r: 0, g: 0, b: 0, a: 1}
+  FadeDuration: 3
+  ShowTips: 1
+  AmmoLabel: {fileID: 0}
+  HealthLabel: {fileID: 0}
+  HintsLabel: {fileID: 0}
 --- !u!114 &114667439713502032
 MonoBehaviour:
   m_ObjectHideFlags: 1

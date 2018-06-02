@@ -366,7 +366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AvailablePlayerTypes:
-  - {fileID: 11400000, guid: 8683ba97d1fb64b9784862ef8af246f5, type: 2}
+  - {fileID: 11400000, guid: f341bfea6bff345a18498baa9eb5d602, type: 2}
   m_AddPrefabs:
     Local: []
     Remote:
@@ -496,6 +496,11 @@ MonoBehaviour:
   SmallFont: {fileID: 12800000, guid: 4721e7a71e3620b4dac13fdc767ee80a, type: 3}
   MessageFont: {fileID: 12800000, guid: 4721e7a71e3620b4dac13fdc767ee80a, type: 3}
   BgTexture: {fileID: 0}
+  m_WeaponNumber: 0
+  m_Weapons:
+  - Pistol
+  - Machinegun
+  - Shotgun
   DontDestroyOnLoad: 1
 --- !u!114 &552670581
 MonoBehaviour:

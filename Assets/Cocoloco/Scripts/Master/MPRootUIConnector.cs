@@ -63,7 +63,7 @@ public class MPRootUIConnector : MonoBehaviour {
 		RootUIManager.enabled = true;
 		RootUIManager.ForceUIRefresh ();
 
-		Debug.Log ("DONE");
+		Debug.Log ("ROOT UI SET.");
 		isRefreshed = true;
 	}
 
